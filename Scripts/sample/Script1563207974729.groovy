@@ -13,73 +13,105 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('CR-DESKTOP/Mega menu/a_Shoes'))
+WebUI.click(findTestObject('Object Repository/sample/Mega menu/a_Shoes'))
 
-WebUI.click(findTestObject('CR-DESKTOP/Mega menu/sneakers'))
+WebUI.click(findTestObject('Object Repository/sample/Mega menu/sneakers'))
 
-WebUI.click(findTestObject('CR-DESKTOP/Collection page/product 3'))
+WebUI.click(findTestObject('Collection page/product 3'))
 
-WebUI.click(findTestObject('CR-DESKTOP/product page/White color variant'))
+WebUI.click(findTestObject('product page/White color variant'))
 
-WebUI.click(findTestObject('CR-DESKTOP/product page/Size -6'))
+WebUI.click(findTestObject('product page/Size -6'))
 
-WebUI.click(findTestObject('CR-DESKTOP/product page/span_Add to Bag (2)'))
+WebUI.click(findTestObject('product page/span_Add to Bag (2)'))
 
-WebUI.click(findTestObject('CR-DESKTOP/Cart flyout/div_Find a Store_cart__backdro'))
+WebUI.click(findTestObject('Cart flyout/div_Find a Store_cart__backdro'))
 
-WebUI.click(findTestObject('CR-DESKTOP/product page/size -7'))
+WebUI.click(findTestObject('product page/size -7'))
 
-WebUI.click(findTestObject('CR-DESKTOP/product page/span_Add to Bag (2)'))
+WebUI.click(findTestObject('product page/span_Add to Bag (2)'))
 
-WebUI.click(findTestObject('CR-DESKTOP/Cart flyout/div_Find a Store_cart__backdro'))
+WebUI.click(findTestObject('Cart flyout/div_Find a Store_cart__backdro'))
 
-WebUI.click(findTestObject('CR-DESKTOP/Mega menu/a_Jeans'))
+WebUI.click(findTestObject('Object Repository/sample/Mega menu/a_Jeans'))
 
-WebUI.click(findTestObject('CR-DESKTOP/Mega menu/Boy friend jeans'))
+WebUI.click(findTestObject('Object Repository/sample/Mega menu/Boy friend jeans'))
 
-WebUI.click(findTestObject('CR-DESKTOP/Collection page/Product 2'))
+WebUI.click(findTestObject('Collection page/Product 2'))
 
-WebUI.click(findTestObject('CR-DESKTOP/product page/size -18'))
+WebUI.click(findTestObject('product page/size -18'))
 
-WebUI.click(findTestObject('CR-DESKTOP/product page/span_Add to Bag (1)'))
+WebUI.click(findTestObject('product page/span_Add to Bag (1)'))
 
-WebUI.click(findTestObject('CR-DESKTOP/Cart flyout/cart collpase'))
+WebUI.click(findTestObject('Cart flyout/cart collpase'))
 
-WebUI.click(findTestObject('CR-DESKTOP/product page/size -20'))
+WebUI.click(findTestObject('product page/size -20'))
 
-WebUI.click(findTestObject('CR-DESKTOP/product page/span_Add to Bag (1)'))
+WebUI.click(findTestObject('product page/span_Add to Bag (1)'))
 
-WebUI.click(findTestObject('CR-DESKTOP/Cart flyout/cart collpase'))
+WebUI.click(findTestObject('Cart flyout/cart collpase'))
 
-WebUI.click(findTestObject('CR-DESKTOP/Mega menu/a_Accessories'))
+WebUI.click(findTestObject('Object Repository/sample/Mega menu/a_Accessories'))
 
-WebUI.click(findTestObject('CR-DESKTOP/Mega menu/Scarves'))
+WebUI.click(findTestObject('Object Repository/sample/Mega menu/Scarves'))
 
-WebUI.click(findTestObject('CR-DESKTOP/Collection page/product 1'))
+WebUI.click(findTestObject('Collection page/product 1'))
 
-WebUI.click(findTestObject('CR-DESKTOP/product page/Size - one size'))
+WebUI.click(findTestObject('product page/Size - one size'))
 
-WebUI.click(findTestObject('CR-DESKTOP/product page/Add to bag'))
+WebUI.click(findTestObject('product page/Add to bag'))
 
-WebUI.click(findTestObject('CR-DESKTOP/Cart flyout/Checkout'))
+WebUI.click(findTestObject('Cart flyout/Checkout'))
 
-WebUI.setText(findTestObject('CR-DESKTOP/Customer info page/Email'), 'suman@gmail.com')
+WebUI.setText(findTestObject('Customer info page/Email'), 'suman@gmail.com')
 
-WebUI.setText(findTestObject('CR-DESKTOP/Customer info page/First name'), 'suman')
+WebUI.setText(findTestObject('Customer info page/First name'), 'suman')
 
-WebUI.setText(findTestObject('CR-DESKTOP/Customer info page/Last name'), 'kompelly')
+WebUI.setText(findTestObject('Customer info page/Last name'), 'kompelly')
 
-WebUI.setText(findTestObject('CR-DESKTOP/Customer info page/Address'), '123 saint alxendre')
+WebUI.setText(findTestObject('Customer info page/Address'), '123 saint alxendre')
 
-WebUI.setText(findTestObject('CR-DESKTOP/Customer info page/apt suite'), '199')
+WebUI.setText(findTestObject('Customer info page/apt suite'), '199')
 
-WebUI.setText(findTestObject('CR-DESKTOP/Customer info page/City'), 'montreal')
+WebUI.setText(findTestObject('Customer info page/City'), 'montreal')
 
-WebUI.selectOptionByValue(findTestObject('CR-DESKTOP/Customer info page/state dropdown'), 'NJ', true)
+WebUI.selectOptionByValue(findTestObject('Customer info page/state dropdown'), 'NJ', true)
 
-WebUI.setText(findTestObject('CR-DESKTOP/Customer info page/Zip code'), '07057')
+WebUI.setText(findTestObject('Customer info page/Zip code'), '07057')
 
-WebUI.click(findTestObject('CR-DESKTOP/Customer info page/Continue to shipping'))
+WebUI.click(findTestObject('Customer info page/Continue to shipping'))
 
-WebUI.click(findTestObject('CR-DESKTOP/Payment page/Continue to payment'))
+WebUI.click(findTestObject('Payment page/Continue to payment'))
+
+WebUI.openBrowser('')
+
+WebUI.click(findTestObject('Cart flyout/cart quantity increase - cart flyout'))
+
+WebUI.setText(findTestObject('Cart flyout/Input update - cart flyout'), '4')
+
+WebUI.click(findTestObject('Cart flyout/click outside'))
+
+WebUI.click(findTestObject('Cart flyout/click outside'))
+
+WebUI.click(findTestObject('Page_High Top Slip On Sneaker  Char/span_14.99'))
+
+WebUI.click(findTestObject('Page_High Top Slip On Sneaker  Char/div_21.94'))
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://charlotterusse.com/')
+
+WebUI.setText(findTestObject('CR-DESKTOP/Cart page/input update qunatity'), '4')
+
+WebUI.click(findTestObject('CR-DESKTOP/Cart page/td_Quantity'))
+
+WebUI.setText(findTestObject('CR-DESKTOP/Cart page/input update qunatity'), '6')
+
+WebUI.click(findTestObject('CR-DESKTOP/Cart page/td_Quantity'))
+
+WebUI.click(findTestObject('CR-DESKTOP/Cart page/Get price - subtotal - cart page'))
+
+WebUI.click(findTestObject('CR-DESKTOP/Cart page/Update cart'))
+
+WebUI.click(findTestObject('CR-DESKTOP/Cart page/Check out - cart page'))
 

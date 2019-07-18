@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Checkout</name>
+   <name>Black variant</name>
    <tag></tag>
-   <elementGuidId>04e550d5-c19e-4091-8ed3-3ae2ca95945a</elementGuidId>
+   <elementGuidId>84888712-ef73-462d-a637-ffeadc578b4b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//a[contains(@class,'cart__checkout')]</value>
+         <key>XPATH</key>
+         <value>//main[@id='MainContent']/div/div/div[2]/div[2]/div[3]/form/div/div[2]/label[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='cart-flyout']/div[3]/div/a</value>
+         <key>BASIC</key>
+         <value>//label[contains(@class,'swatch-black color')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,82 +21,78 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>cart__checkout</value>
+      <value>product__radio radio-color  swatch-black color</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>data-value</name>
       <type>Main</type>
-      <value>/checkout?locale=en</value>
+      <value>Black</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>data-option</name>
       <type>Main</type>
-      <value>Checkout</value>
+      <value>option1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Black</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-analytics-title</name>
+      <type>Main</type>
+      <value>product_color</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[contains(@class,'cart__checkout')]</value>
+      <value>//label[contains(@class,'swatch-black color')]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//section[@id='cart-flyout']/div[3]/div/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <value>//a[contains(text(),'Checkout')]</value>
+      <value>//main[@id='MainContent']/div/div/div[2]/div[2]/div[3]/form/div/div[2]/label[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$74.45'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Black with White'])[1]/following::label[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sub-total'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Size'])[1]/preceding::label[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='https://charlotterusse.com/products/0977-58199020-plaid-knit-tassel-scarf'])[1]/preceding::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Plaid Knit Tassel Scarf'])[5]/preceding::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <value>//a[contains(@href, '/checkout?locale=en')]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='XS'])[1]/preceding::label[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//section/div[3]/div/a</value>
+      <value>//div[2]/label[2]</value>
    </webElementXpaths>
 </WebElementEntity>

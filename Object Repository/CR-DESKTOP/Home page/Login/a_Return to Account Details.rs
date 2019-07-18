@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Checkout</name>
+   <name>a_Return to Account Details</name>
    <tag></tag>
-   <elementGuidId>04e550d5-c19e-4091-8ed3-3ae2ca95945a</elementGuidId>
+   <elementGuidId>0eaf280b-f20a-4213-8ed1-e8982ef53e3c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//a[contains(@class,'cart__checkout')]</value>
+         <key>XPATH</key>
+         <value>//main[@id='MainContent']/div/div/div/div/div/p/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='cart-flyout']/div[3]/div/a</value>
+         <key>BASIC</key>
+         <value>//a[contains(text(),'Return to Account Details')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,77 +26,70 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>cart__checkout</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/checkout?locale=en</value>
+      <value>/account</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Checkout</value>
+      <value>Return to Account Details</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[contains(@class,'cart__checkout')]</value>
+      <value>//a[contains(text(),'Return to Account Details')]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//section[@id='cart-flyout']/div[3]/div/a</value>
+      <value>//main[@id='MainContent']/div/div/div/div/div/p/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
-      <value>//a[contains(text(),'Checkout')]</value>
+      <value>//a[contains(text(),'Return to Account Details')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$74.45'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add a New Address'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sub-total'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Account'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='https://charlotterusse.com/products/0977-58199020-plaid-knit-tassel-scarf'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add a New Address'])[2]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Plaid Knit Tassel Scarf'])[5]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='First Name'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
-      <value>//a[contains(@href, '/checkout?locale=en')]</value>
+      <value>(//a[contains(@href, '/account')])[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//section/div[3]/div/a</value>
+      <value>//p/a</value>
    </webElementXpaths>
 </WebElementEntity>

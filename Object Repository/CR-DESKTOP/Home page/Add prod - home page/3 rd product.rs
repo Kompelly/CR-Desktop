@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Checkout</name>
+   <name>3 rd product</name>
    <tag></tag>
-   <elementGuidId>04e550d5-c19e-4091-8ed3-3ae2ca95945a</elementGuidId>
+   <elementGuidId>54ebab34-7a4b-43a6-8a86-e484134789d8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//a[contains(@class,'cart__checkout')]</value>
+         <key>XPATH</key>
+         <value>//li[@id='product-2']/div/div[2]/div/a/img</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='cart-flyout']/div[3]/div/a</value>
+         <key>BASIC</key>
+         <value>//li[@id='product-1']//img[@class='featured_collection__image']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,82 +21,76 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>img</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>cart__checkout</value>
+      <value>featured_collection__image</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>alt</name>
       <type>Main</type>
-      <value>/checkout?locale=en</value>
+      <value>Neon Side Stripe Cropped Hooded Long Sleeve</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>src</name>
       <type>Main</type>
-      <value>Checkout</value>
+      <value>//cdn.shopify.com/s/files/1/0074/5124/6676/products/000630720778-15-0_270x400_crop_center.jpg?v=1562796104</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[contains(@class,'cart__checkout')]</value>
+      <value>//li[@id='product-1']//img[@class='featured_collection__image']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//section[@id='cart-flyout']/div[3]/div/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <value>//a[contains(text(),'Checkout')]</value>
+      <value>//li[@id='product-2']/div/div[2]/div/a/img</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$74.45'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NOW $12.50'])[1]/following::img[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sub-total'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$24.99'])[1]/following::img[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='https://charlotterusse.com/products/0977-58199020-plaid-knit-tassel-scarf'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quick Add'])[2]/preceding::img[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Plaid Knit Tassel Scarf'])[5]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[2]/preceding::img[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <value>//a[contains(@href, '/checkout?locale=en')]</value>
+      <name>xpath:img</name>
+      <value>//img[@alt='Neon Side Stripe Cropped Hooded Long Sleeve']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//section/div[3]/div/a</value>
+      <value>//li[2]/div/div[2]/div/a/img</value>
    </webElementXpaths>
 </WebElementEntity>

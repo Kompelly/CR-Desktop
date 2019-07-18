@@ -67,14 +67,17 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('CR-DESKTOP/product page/Add to bag'))
 
-WebUI.delay(4)
+WebUI.delay(2)
 
-//String x = WebUI.getText(findTestObject('CR-DESKTOP/Cart flyout/Get quantity'))
-int x = 8
+WebUI.click(findTestObject('CR-DESKTOP/Cart flyout/Checkout'))
 
-WebUI.comment('x=' + x)
+WebUI.delay(3)
 
-String a = WebUI.getText(findTestObject('CR-DESKTOP/Cart flyout/Get price - prod 1'))
+WebUI.click(findTestObject('CR-DESKTOP/Customer info page/cart page link'))
+
+WebUI.delay(2)
+
+String a = WebUI.getText(findTestObject('CR-DESKTOP/Cart page/Get price - prod 1-cart page'))
 
 WebUI.delay(2)
 
@@ -103,11 +106,7 @@ try {
 catch (NumberFormatException ex) {
 } 
 
-int y = x * p1
-
-WebUI.comment('y=' + y)
-
-String b = WebUI.getText(findTestObject('CR-DESKTOP/Cart flyout/Get price - prod 2'))
+String b = WebUI.getText(findTestObject('CR-DESKTOP/Cart page/Get price - prod 2 - cart page'))
 
 WebUI.delay(2)
 
@@ -131,11 +130,11 @@ try {
 catch (NumberFormatException ex) {
 } 
 
-int total = y + p2
+int total = p1 + p2
 
 WebUI.comment('total=' + total)
 
-String c = WebUI.getText(findTestObject('CR-DESKTOP/Cart flyout/Get price - subtotal'))
+String c = WebUI.getText(findTestObject('CR-DESKTOP/Cart page/Get price - subtotal- cart page'))
 
 WebUI.delay(2)
 
@@ -159,7 +158,7 @@ catch (NumberFormatException ex) {
 
 WebUI.verifyEqual(p3, total)
 
-WebUI.click(findTestObject('CR-DESKTOP/Cart flyout/Checkout'))
+WebUI.click(findTestObject('CR-DESKTOP/Cart page/Check out - cart page'))
 
 WebUI.callTestCase(findTestCase('CALL - CUTOMER INFO PAGE'), [:], FailureHandling.STOP_ON_FAILURE)
 

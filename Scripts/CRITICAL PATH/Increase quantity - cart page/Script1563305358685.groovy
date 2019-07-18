@@ -49,7 +49,7 @@ WebUI.click(findTestObject('CR-DESKTOP/Customer info page/cart page link'))
 
 WebUI.delay(2)
 
-String a = WebUI.getText(findTestObject('CR-DESKTOP/Cart page/Get price - subtotal - cart page'))
+String a = WebUI.getText(findTestObject('CR-DESKTOP/Cart page/Get price - subtotal- cart page'))
 
 WebUI.delay(2)
 

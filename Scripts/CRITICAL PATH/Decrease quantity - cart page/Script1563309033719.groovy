@@ -57,8 +57,6 @@ WebUI.click(findTestObject('CR-DESKTOP/Cart flyout/cart quantity increase - cart
 
 WebUI.delay(2)
 
-WebUI.delay(2)
-
 WebUI.click(findTestObject('CR-DESKTOP/Cart flyout/Checkout'))
 
 WebUI.delay(3)
@@ -67,7 +65,7 @@ WebUI.click(findTestObject('CR-DESKTOP/Customer info page/cart page link'))
 
 WebUI.delay(2)
 
-String a = WebUI.getText(findTestObject('CR-DESKTOP/Cart page/Get price - subtotal - cart page'))
+String a = WebUI.getText(findTestObject('CR-DESKTOP/Cart page/Get price - subtotal- cart page'))
 
 WebUI.delay(2)
 

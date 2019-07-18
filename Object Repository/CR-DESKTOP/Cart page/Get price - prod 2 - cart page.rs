@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Get price - subtotal - cart page</name>
+   <name>Get price - prod 2 - cart page</name>
    <tag></tag>
-   <elementGuidId>3259bce4-fcd1-4fe9-a3a3-af6b5da3dae1</elementGuidId>
+   <elementGuidId>c4d084f7-6ed5-4231-abb1-01bf0846086c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//main[@id='MainContent']/div/div/div/div[2]/form/div/div[2]/div/p[2]</value>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/div[3]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/form[1]/table[1]/tbody[1]/tr[2]/td[5]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>/html[1]/body[1]/div[3]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[1]/div[2]/div[1]/p[2]</value>
+         <key>XPATH</key>
+         <value>//section[@id='cart-flyout']/div[3]/div/div[2]/div[2]/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,57 +21,63 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>p</value>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cart__price-breakdown-item cart__price-breakdown-cost js-cart-total</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>$10.00
-</value>
+      <value>$21.94</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[3]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[1]/div[2]/div[1]/p[2]</value>
+      <value>/html[1]/body[1]/div[3]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/form[1]/table[1]/tbody[1]/tr[2]/td[5]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//main[@id='MainContent']/div/div/div/div[2]/form/div/div[2]/div/p[2]</value>
+      <value>//section[@id='cart-flyout']/div[3]/div/div[2]/div[2]/div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Special instructions for seller'])[1]/following::p[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sub-total'])[1]/following::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$10.00'])[2]/following::p[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='free'])[1]/following::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shipping &amp; taxes calculated at checkout'])[1]/preceding::p[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Checkout'])[1]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Check Out'])[1]/preceding::p[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='https://charlotterusse.com/products/0774-61387031-high-top-slip-on-sneaker'])[1]/preceding::div[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//p[2]</value>
+      <value>//div[3]/div/div[2]/div[2]/div[2]</value>
    </webElementXpaths>
 </WebElementEntity>

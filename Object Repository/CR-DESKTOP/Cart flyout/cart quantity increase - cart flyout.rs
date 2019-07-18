@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>(//button[@type='button'])[18]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@class='cart__quantity-button cart__plus js-cart-plus']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,18 +31,18 @@
       <value>cart__quantity-button cart__plus js-cart-plus</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;cart-flyout&quot;)/div[@class=&quot;cart__items-outer&quot;]/div[@class=&quot;cart__items-inner&quot;]/ul[@class=&quot;cart__items-container js-cart-items&quot;]/li[@class=&quot;cart__item js-cart-item&quot;]/div[@class=&quot;cart__item-column cart__item-content&quot;]/div[@class=&quot;cart__quantity-container&quot;]/button[@class=&quot;cart__quantity-button cart__plus js-cart-plus&quot;]</value>
+      <value>//button[@class='cart__quantity-button cart__plus js-cart-plus']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

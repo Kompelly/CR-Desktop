@@ -175,3 +175,82 @@ WebUI.click(findTestObject('Object Repository/sample/Page_Stiletto Heel Pump  Ch
 
 WebUI.click(findTestObject('Object Repository/sample/Page_Stiletto Heel Pump  Charlotte/label_7'))
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://charlotterusse.com/')
+
+WebUI.click(findTestObject('Object Repository/sample/Store Locator/Results total list'))
+
+WebUI.setText(findTestObject('Object Repository/sample/Store Locator/Search input'), '49418')
+
+WebUI.click(findTestObject('Object Repository/sample/Store Locator/Results list after'))
+
+WebUI.click(findTestObject('Object Repository/sample/Store Locator/Distance filter'))
+
+WebUI.click(findTestObject('Object Repository/sample/Store Locator/Filter'))
+
+WebUI.click(findTestObject('Object Repository/sample/Store Locator/button_Filter'))
+
+WebUI.click(findTestObject('Object Repository/sample/Store Locator/Label - until 9pm'))
+
+WebUI.click(findTestObject('Object Repository/sample/Store Locator/Results list after filter'))
+
+WebUI.click(findTestObject('Object Repository/sample/Store Locator/Clear filter'))
+
+WebUI.click(findTestObject('Object Repository/sample/Store Locator/Next button'))
+
+WebUI.click(findTestObject('Object Repository/sample/Store Locator/Prev - button'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/sample/Store Locator/select dropdown'), '2', true)
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://charlotterusse.com/')
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/a_Contact Us'))
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/a_Track Order'))
+
+WebUI.click(findTestObject('Object Repository/sample/Page_Account  Charlotte Russe/a_Shipping Info'))
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/a_Return Policy'))
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/a_About Us'))
+
+WebUI.click(findTestObject('Object Repository/sample/Page_About Us  Charlotte Russe/a_Careers'))
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/a_Terms  Conditions'))
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/a_Privacy Policy'))
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/a_Social Media Policy'))
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/a_FAQs'))
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/a_Size Chart'))
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/a_Find a Store'))
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/Facebook'))
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/twitter'))
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/Instagram'))
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/Pintrest'))
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/youtube'))
+
+WebUI.setText(findTestObject('CR-DESKTOP/Home page/Footer/Input'), 
+    'suman@gmail.com')
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/button_Sign Up'))
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/div_Thank you for subscribing'))
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/Contact us'))
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/Track package'))
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/Store locator'))
+

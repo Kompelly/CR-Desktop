@@ -17,11 +17,11 @@ WebUI.callTestCase(findTestCase('CALL-URL'), [:], FailureHandling.STOP_ON_FAILUR
 
 WebUI.delay(2)
 
-WebUI.mouseOver(findTestObject('CR-DESKTOP/Mega menu/a_Shoes'))
+WebUI.mouseOver(findTestObject('CR-DESKTOP/Mega menu/SHOES'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('CR-DESKTOP/Mega menu/sneakers'))
+WebUI.click(findTestObject('CR-DESKTOP/Mega menu/shoes - sneakers'))
 
 WebUI.delay(2)
 
@@ -53,7 +53,7 @@ WebUI.mouseOver(findTestObject('CR-DESKTOP/Mega menu/a_Jeans'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('CR-DESKTOP/Mega menu/Boy friend jeans'))
+WebUI.click(findTestObject('CR-DESKTOP/Mega menu/Jeans- Boy friend jeans'))
 
 WebUI.delay(2)
 

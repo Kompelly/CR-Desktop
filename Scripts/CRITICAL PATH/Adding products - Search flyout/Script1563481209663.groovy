@@ -25,11 +25,29 @@ WebUI.setText(findTestObject('CR-DESKTOP/Home page/Search flyout'), 'heels')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('CR-DESKTOP/Home page/Search button'))
+WebUI.sendKeys(findTestObject('CR-DESKTOP/Home page/Search button'), Keys.chord(Keys.ENTER))
 
-not_run: WebUI.sendKeys(findTestObject('CR-DESKTOP/Home page/Search button'), Keys.chord(Keys.ENTER))
+WebUI.delay(2)
 
-not_run: WebUI.setText(findTestObject('sample/Page_Charlotte Russe/input_Shop All_q'), 'heels')
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Add prod - home page/1 st product'))
 
-not_run: WebUI.sendKeys(findTestObject('sample/Page_Charlotte Russe/input_Shop All_q'), Keys.chord(Keys.ENTER))
+WebUI.delay(2)
+
+WebUI.click(findTestObject('CR-DESKTOP/product page/White color variant'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('CR-DESKTOP/product page/size -7'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('CR-DESKTOP/product page/Add to bag'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('CR-DESKTOP/Cart flyout/Checkout'))
+
+WebUI.callTestCase(findTestCase('CALL - CUTOMER INFO PAGE'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('CALL- SHIPPING TO PAYMENT'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -6,12 +6,12 @@
    <elementGuidId>6089289d-a5b4-490a-9763-48aba3abd4fc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='slider__slide--1558545669104']/h1/img</value>
+         <key>BASIC</key>
+         <value>//div[@id='slider__slide--1558545549062']//img[contains(@class,'slider__image small--hide')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//div[@id='slider__slide--1558545669104']//img[@class='slider__image small--hide']</value>
+         <key>XPATH</key>
+         <value>//div[@id='slider__slide--1558545669104']/h1/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@id='slider__slide--1558545669104']//img[@class='slider__image small--hide']</value>
+      <value>//div[@id='slider__slide--1558545549062']//img[contains(@class,'slider__image small--hide')]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

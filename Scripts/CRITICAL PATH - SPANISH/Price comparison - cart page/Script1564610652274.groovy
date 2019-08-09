@@ -13,15 +13,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('CALL-URL'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CALL - LANGUAGE TOGGLER'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
-WebUI.mouseOver(findTestObject('CR-DESKTOP/Mega menu/SHOES'))
+WebUI.mouseOver(findTestObject('CR-DESKTOP - SPANISH/Mega menu/SHOES'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('CR-DESKTOP/Mega menu/shoes - sneakers'))
+WebUI.click(findTestObject('CR-DESKTOP - SPANISH/Mega menu/shoes - tenis'))
 
 WebUI.delay(2)
 
@@ -29,7 +29,7 @@ WebUI.click(findTestObject('CR-DESKTOP/Collection page/product 3'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('CR-DESKTOP/product page/White color variant'))
+WebUI.click(findTestObject('CR-DESKTOP - SPANISH/product page/verde neon'))
 
 WebUI.delay(2)
 
@@ -37,11 +37,11 @@ WebUI.click(findTestObject('CR-DESKTOP/product page/Size -6'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('CR-DESKTOP/product page/Add to bag'))
+WebUI.click(findTestObject('CR-DESKTOP - SPANISH/product page/Add to bag'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('CR-DESKTOP/Cart flyout/Input update - cart flyout'), '8')
+WebUI.setText(findTestObject('CR-DESKTOP - SPANISH/Cart flyout/Input update - cart flyout'), '8')
 
 WebUI.delay(2)
 
@@ -49,11 +49,11 @@ WebUI.click(findTestObject('CR-DESKTOP/Cart flyout/cart collpase'))
 
 WebUI.delay(2)
 
-WebUI.mouseOver(findTestObject('CR-DESKTOP/Mega menu/a_Jeans'))
+WebUI.mouseOver(findTestObject('CR-DESKTOP - SPANISH/Mega menu/a_Jeans'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('CR-DESKTOP/Mega menu/Jeans- Boy friend jeans'))
+WebUI.click(findTestObject('CR-DESKTOP - SPANISH/Mega menu/Jeans- Boy friend jeans'))
 
 WebUI.delay(2)
 
@@ -65,7 +65,7 @@ WebUI.click(findTestObject('CR-DESKTOP/product page/size -18'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('CR-DESKTOP/product page/Add to bag'))
+WebUI.click(findTestObject('CR-DESKTOP - SPANISH/product page/Add to bag'))
 
 WebUI.delay(2)
 
@@ -73,7 +73,7 @@ WebUI.click(findTestObject('CR-DESKTOP/Cart flyout/Checkout'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('CR-DESKTOP/Customer info page/cart page link'))
+WebUI.click(findTestObject('CR-DESKTOP - SPANISH/Customer info page/cart page link'))
 
 WebUI.delay(2)
 

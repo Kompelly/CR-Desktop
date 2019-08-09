@@ -3,6 +3,12 @@
    <description></description>
    <name>Price comparison - cart page</name>
    <tag></tag>
-   <comment></comment>
+   <comment>a=&quot; + a
+a1=&quot; + a1
+b=&quot; + b
+b1=&quot; + b1
+total=&quot; + total
+c=&quot; + c
+c1=&quot; + c1</comment>
    <testCaseGuid>32dd838a-0373-43de-ad55-28b6ffed6e09</testCaseGuid>
 </TestCaseEntity>

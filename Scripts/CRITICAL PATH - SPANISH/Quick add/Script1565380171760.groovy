@@ -13,15 +13,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('CALL-URL'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CALL - LANGUAGE TOGGLER'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
-WebUI.mouseOver(findTestObject('CR-DESKTOP/Mega menu/SHOES'))
+WebUI.mouseOver(findTestObject('CR-DESKTOP - SPANISH/Mega menu/SHOES'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('CR-DESKTOP/Mega menu/shoes - sneakers'))
+WebUI.click(findTestObject('CR-DESKTOP - SPANISH/Mega menu/shoes - tenis'))
 
 WebUI.delay(2)
 

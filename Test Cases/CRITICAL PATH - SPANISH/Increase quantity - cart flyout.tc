@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Increase quantity - cart flyout</name>
+   <tag></tag>
+   <comment>a=&quot; + a
+a1=&quot; + a1
+b=&quot; + b
+b1=&quot; + b1</comment>
+   <testCaseGuid>3fe1f68c-82ae-45d1-a0f1-5c9df7df9cdc</testCaseGuid>
+</TestCaseEntity>

@@ -87,6 +87,8 @@ WebUI.back()
 
 WebUI.click(findTestObject('CR-DESKTOP/product page/Easy returns - More info'))
 
+WebUI.back()
+
 WebUI.delay(2)
 
 WebUI.click(findTestObject('CR-DESKTOP/product page/Specs Tab'))

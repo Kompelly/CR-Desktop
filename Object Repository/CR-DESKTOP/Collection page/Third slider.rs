@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//li[@id='product-1']//label[@class='product__radio radio-color swatch-black-with-white']</value>
+         <value>//li[@id='product-1']//label[@class='product__radio radio-color swatch-light-pink']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[@id='product-1']//label[@class='product__radio radio-color swatch-black-with-white']</value>
+      <value>//li[@id='product-1']//label[@class='product__radio radio-color swatch-light-pink']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

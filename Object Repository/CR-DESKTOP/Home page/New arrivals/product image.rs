@@ -6,12 +6,12 @@
    <elementGuidId>01be0ddd-19c2-43bd-9526-dbcc72223418</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html[1]/body[1]/div[3]/div[3]/main[1]/div[3]/section[1]/div[1]/div[6]/div[1]/div[1]/div[1]/ul[1]/div[1]/div[1]/li[10]/div[2]/div[1]/a[1]/img[1]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//body[@id='refuge-plus-size-high-rise-distressed-dark-wash-skinny-boyfriend-jean']/div[4]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/div[3]/div[3]/main[1]/div[3]/section[1]/div[1]/div[6]/div[1]/div[1]/div[1]/ul[1]/div[1]/div[1]/li[3]/div[2]/div[1]/a[1]/img[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,7 +35,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[3]/div[3]/main[1]/div[3]/section[1]/div[1]/div[6]/div[1]/div[1]/div[1]/ul[1]/div[1]/div[1]/li[10]/div[2]/div[1]/a[1]/img[1]</value>
+      <value>/html[1]/body[1]/div[3]/div[3]/main[1]/div[3]/section[1]/div[1]/div[6]/div[1]/div[1]/div[1]/ul[1]/div[1]/div[1]/li[3]/div[2]/div[1]/a[1]/img[1]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>body.template-index:nth-child(2) div.meganav:nth-child(4) div.meganav-page-content:nth-child(4) div.shopify-section:nth-child(3) div.grid div.grid__item.grid__element.grid__element--html.one-whole.medium--one-whole.large-up--one-whole:nth-child(6) div.grid__content div.nosto_element:nth-child(2) div.wrapper.wrapper--section ul.output.featured-collection-container.nosto-recommendations.grid.slick-initialized.slick-slider div.slick-list.draggable div.slick-track li.nosto-tile.product-list__item.grid__item.large-up--one-third.js-product-tile.js-product.slick-slide.slick-active:nth-child(10) div.featured-collection__info div.product-tile-image:nth-child(1) a:nth-child(1) > img.featured_collection__image</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

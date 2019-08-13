@@ -339,6 +339,8 @@ WebUI.delay(2)
 
 WebUI.mouseOver(findTestObject('CR-DESKTOP/Mega menu/PLUS'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('CR-DESKTOP/Mega menu/plus - shop all'))
 
 WebUI.delay(2)

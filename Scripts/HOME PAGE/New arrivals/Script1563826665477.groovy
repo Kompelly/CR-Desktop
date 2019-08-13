@@ -21,7 +21,7 @@ WebUI.scrollToElement(findTestObject('CR-DESKTOP/Home page/New arrivals/New arri
 
 WebUI.delay(2)
 
-for (i = 1; i <= 3; i++) {
+for (i = 1; i <= 2; i++) {
     WebUI.click(findTestObject('CR-DESKTOP/Home page/New arrivals/Next button'))
 }
 
@@ -39,7 +39,7 @@ WebUI.click(findTestObject('CR-DESKTOP/Home page/Add prod - home page/Charlotte 
 
 WebUI.delay(2)
 
-WebUI.scrollToElement(findTestObject('CR-DESKTOP/Home page/New arrivals/New arrivals'), 0)
+WebUI.scrollToElement(findTestObject('CR-DESKTOP/Home page/New arrivals/New arrivals down'), 0)
 
 WebUI.delay(2)
 

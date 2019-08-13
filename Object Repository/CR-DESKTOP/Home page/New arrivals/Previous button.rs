@@ -6,12 +6,12 @@
    <elementGuidId>72d4d5d2-4486-4627-96ba-4122a968ed10</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//button[@class='pagination-arrow pagination-arrow--prev slick-arrow slick-disabled']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//body[@id='refuge-plus-size-high-rise-distressed-dark-wash-skinny-boyfriend-jean']/div[4]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@class='pagination-arrow pagination-arrow--prev slick-arrow']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[@class='pagination-arrow pagination-arrow--prev slick-arrow slick-disabled']</value>
+      <value>//button[@class='pagination-arrow pagination-arrow--prev slick-arrow']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

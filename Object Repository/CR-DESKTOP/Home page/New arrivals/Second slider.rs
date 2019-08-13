@@ -6,12 +6,12 @@
    <elementGuidId>3e2a0a08-fc50-4e63-9022-7168794a5eaf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//li[@id='slick-slide21']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//body[@id='refuge-plus-size-high-rise-distressed-dark-wash-skinny-boyfriend-jean']/div[4]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[@id='slick-slide21']//button[contains(text(),'2')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[@id='slick-slide21']</value>
+      <value>//li[@id='slick-slide21']//button[contains(text(),'2')]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

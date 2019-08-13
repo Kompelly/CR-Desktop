@@ -1,0 +1,490 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+suite-safari,Safari 12,,2019-08-13 09:47:37,2019-08-13 10:03:30,15m - 52.915s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH - SPANISH/Increase quantity - cart page,Safari 12,,2019-08-13 09:47:38,2019-08-13 09:48:13,35.095s,FAILED
+"callTestCase(findTestCase(""CALL - LANGUAGE TOGGLER""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:47:39,2019-08-13 09:48:08,28.940s,PASSED
+delay(2),Safari 12,,2019-08-13 09:48:08,2019-08-13 09:48:10,2.006s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/SHOES""))",Safari 12,,2019-08-13 09:48:10,2019-08-13 09:48:11,0.601s,PASSED
+delay(2),Safari 12,,2019-08-13 09:48:11,2019-08-13 09:48:13,2.007s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/shoes - tenis""))",Safari 12,,2019-08-13 09:48:13,2019-08-13 09:48:13,0.431s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH - SPANISH/Increase quantity - cart flyout,Safari 12,,2019-08-13 09:48:13,2019-08-13 09:48:25,12.320s,FAILED
+"callTestCase(findTestCase(""CALL - LANGUAGE TOGGLER""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:48:13,2019-08-13 09:48:21,7.360s,PASSED
+delay(2),Safari 12,,2019-08-13 09:48:21,2019-08-13 09:48:23,2.007s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/SHOES""))",Safari 12,,2019-08-13 09:48:23,2019-08-13 09:48:23,0.132s,PASSED
+delay(2),Safari 12,,2019-08-13 09:48:23,2019-08-13 09:48:25,2.008s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/shoes - tenis""))",Safari 12,,2019-08-13 09:48:25,2019-08-13 09:48:25,0.501s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH - SPANISH/Quick add,Safari 12,,2019-08-13 09:48:25,2019-08-13 09:49:12,46.779s,PASSED
+"callTestCase(findTestCase(""CALL - LANGUAGE TOGGLER""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:48:26,2019-08-13 09:48:33,7.005s,PASSED
+delay(2),Safari 12,,2019-08-13 09:48:33,2019-08-13 09:48:35,2.007s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/SHOES""))",Safari 12,,2019-08-13 09:48:35,2019-08-13 09:48:35,0.150s,PASSED
+delay(2),Safari 12,,2019-08-13 09:48:35,2019-08-13 09:48:37,2.003s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/shoes - tenis""))",Safari 12,,2019-08-13 09:48:37,2019-08-13 09:48:39,2.045s,PASSED
+delay(2),Safari 12,,2019-08-13 09:48:39,2019-08-13 09:48:41,2.006s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Collection page/product 3""))",Safari 12,,2019-08-13 09:48:41,2019-08-13 09:48:41,0.145s,PASSED
+delay(2),Safari 12,,2019-08-13 09:48:41,2019-08-13 09:48:43,2.004s,PASSED
+"click(findTestObject(""CR-DESKTOP/product page/Quick add""))",Safari 12,,2019-08-13 09:48:43,2019-08-13 09:48:43,0.134s,PASSED
+delay(2),Safari 12,,2019-08-13 09:48:43,2019-08-13 09:48:45,2.011s,PASSED
+"click(findTestObject(""CR-DESKTOP/product page/Quick add - size - 6""))",Safari 12,,2019-08-13 09:48:45,2019-08-13 09:48:45,0.088s,PASSED
+delay(2),Safari 12,,2019-08-13 09:48:45,2019-08-13 09:48:47,2.011s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/Checkout""))",Safari 12,,2019-08-13 09:48:47,2019-08-13 09:48:50,3.033s,PASSED
+"callTestCase(findTestCase(""CALL - CUTOMER INFO PAGE""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:48:50,2019-08-13 09:49:06,15.769s,PASSED
+"callTestCase(findTestCase(""CALL- SHIPPING TO PAYMENT""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:49:06,2019-08-13 09:49:12,6.155s,PASSED
+,,,,,,
+Test Cases/CRITICAL PATH - SPANISH/Price comparison - cart page,Safari 12,,2019-08-13 09:49:12,2019-08-13 09:49:26,13.486s,FAILED
+"callTestCase(findTestCase(""CALL - LANGUAGE TOGGLER""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:49:13,2019-08-13 09:49:20,7.582s,PASSED
+delay(2),Safari 12,,2019-08-13 09:49:20,2019-08-13 09:49:22,2.005s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/SHOES""))",Safari 12,,2019-08-13 09:49:22,2019-08-13 09:49:23,0.152s,PASSED
+delay(2),Safari 12,,2019-08-13 09:49:23,2019-08-13 09:49:25,2.003s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/shoes - tenis""))",Safari 12,,2019-08-13 09:49:25,2019-08-13 09:49:26,1.184s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH - SPANISH/Decrease quantity - cart page,Safari 12,,2019-08-13 09:49:26,2019-08-13 09:51:02,1m - 36.272s,PASSED
+"callTestCase(findTestCase(""CALL - LANGUAGE TOGGLER""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:49:26,2019-08-13 09:49:40,13.735s,PASSED
+delay(2),Safari 12,,2019-08-13 09:49:40,2019-08-13 09:49:42,2.003s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/SHOES""))",Safari 12,,2019-08-13 09:49:42,2019-08-13 09:49:42,0.160s,PASSED
+delay(2),Safari 12,,2019-08-13 09:49:42,2019-08-13 09:49:44,2.005s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/shoes - tenis""))",Safari 12,,2019-08-13 09:49:44,2019-08-13 09:49:46,1.836s,PASSED
+delay(2),Safari 12,,2019-08-13 09:49:46,2019-08-13 09:49:48,2.006s,PASSED
+"click(findTestObject(""CR-DESKTOP/Collection page/product 3""))",Safari 12,,2019-08-13 09:49:48,2019-08-13 09:49:49,1.277s,PASSED
+delay(2),Safari 12,,2019-08-13 09:49:49,2019-08-13 09:49:51,2.003s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/product page/verde neon""))",Safari 12,,2019-08-13 09:49:51,2019-08-13 09:49:51,0.057s,PASSED
+delay(2),Safari 12,,2019-08-13 09:49:51,2019-08-13 09:49:53,2.003s,PASSED
+"click(findTestObject(""CR-DESKTOP/product page/Size -6""))",Safari 12,,2019-08-13 09:49:53,2019-08-13 09:49:54,0.098s,PASSED
+delay(2),Safari 12,,2019-08-13 09:49:54,2019-08-13 09:49:56,2.002s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/product page/Add to bag""))",Safari 12,,2019-08-13 09:49:56,2019-08-13 09:49:56,0.097s,PASSED
+delay(3),Safari 12,,2019-08-13 09:49:56,2019-08-13 09:49:59,3.006s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/cart quantity increase - cart flyout""))",Safari 12,,2019-08-13 09:49:59,2019-08-13 09:49:59,0.092s,PASSED
+delay(2),Safari 12,,2019-08-13 09:49:59,2019-08-13 09:50:01,2.003s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/cart quantity increase - cart flyout""))",Safari 12,,2019-08-13 09:50:01,2019-08-13 09:50:01,0.059s,PASSED
+delay(2),Safari 12,,2019-08-13 09:50:01,2019-08-13 09:50:03,2.003s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/cart quantity increase - cart flyout""))",Safari 12,,2019-08-13 09:50:03,2019-08-13 09:50:03,0.082s,PASSED
+delay(2),Safari 12,,2019-08-13 09:50:03,2019-08-13 09:50:05,2.002s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/cart quantity increase - cart flyout""))",Safari 12,,2019-08-13 09:50:05,2019-08-13 09:50:05,0.048s,PASSED
+delay(2),Safari 12,,2019-08-13 09:50:05,2019-08-13 09:50:07,2.002s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/Checkout""))",Safari 12,,2019-08-13 09:50:07,2019-08-13 09:50:07,0.050s,PASSED
+delay(3),Safari 12,,2019-08-13 09:50:07,2019-08-13 09:50:10,3.003s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Customer info page/cart page link""))",Safari 12,,2019-08-13 09:50:10,2019-08-13 09:50:12,1.596s,PASSED
+delay(2),Safari 12,,2019-08-13 09:50:12,2019-08-13 09:50:14,2.005s,PASSED
+"a = getText(findTestObject(""CR-DESKTOP/Cart page/Get price - subtotal- cart page""))",Safari 12,,2019-08-13 09:50:14,2019-08-13 09:50:14,0.036s,PASSED
+delay(2),Safari 12,,2019-08-13 09:50:14,2019-08-13 09:50:16,2.005s,PASSED
+"comment(""a="" + a)",Safari 12,,2019-08-13 09:50:16,2019-08-13 09:50:16,0.005s,PASSED
+a1 = a.substring(1),Safari 12,,2019-08-13 09:50:16,2019-08-13 09:50:16,0.001s,PASSED
+"comment(""a1="" + a1)",Safari 12,,2019-08-13 09:50:16,2019-08-13 09:50:16,0.001s,PASSED
+delay(2),Safari 12,,2019-08-13 09:50:16,2019-08-13 09:50:18,2.003s,PASSED
+"setText(findTestObject(""CR-DESKTOP - SPANISH/Cart page/input update qunatity""), ""4"")",Safari 12,,2019-08-13 09:50:18,2019-08-13 09:50:18,0.142s,PASSED
+delay(2),Safari 12,,2019-08-13 09:50:18,2019-08-13 09:50:20,2.005s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart page/td_Quantity""))",Safari 12,,2019-08-13 09:50:20,2019-08-13 09:50:20,0.143s,PASSED
+delay(2),Safari 12,,2019-08-13 09:50:20,2019-08-13 09:50:22,2.006s,PASSED
+"setText(findTestObject(""CR-DESKTOP - SPANISH/Cart page/input update qunatity""), ""2"")",Safari 12,,2019-08-13 09:50:22,2019-08-13 09:50:22,0.060s,PASSED
+delay(2),Safari 12,,2019-08-13 09:50:22,2019-08-13 09:50:24,2.005s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart page/td_Quantity""))",Safari 12,,2019-08-13 09:50:24,2019-08-13 09:50:24,0.021s,PASSED
+delay(2),Safari 12,,2019-08-13 09:50:24,2019-08-13 09:50:26,2.004s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart page/Update cart""))",Safari 12,,2019-08-13 09:50:26,2019-08-13 09:50:26,0.059s,PASSED
+delay(2),Safari 12,,2019-08-13 09:50:26,2019-08-13 09:50:28,2.005s,PASSED
+"b = getText(findTestObject(""CR-DESKTOP - SPANISH/Cart page/Get price - subtotal- cart page""))",Safari 12,,2019-08-13 09:50:28,2019-08-13 09:50:28,0.023s,PASSED
+delay(2),Safari 12,,2019-08-13 09:50:28,2019-08-13 09:50:30,2.006s,PASSED
+"comment(""b="" + b)",Safari 12,,2019-08-13 09:50:30,2019-08-13 09:50:30,0.000s,PASSED
+b1 = b.substring(1),Safari 12,,2019-08-13 09:50:30,2019-08-13 09:50:30,0.000s,PASSED
+"comment(""b1="" + b1)",Safari 12,,2019-08-13 09:50:30,2019-08-13 09:50:30,0.001s,PASSED
+delay(2),Safari 12,,2019-08-13 09:50:30,2019-08-13 09:50:32,2.002s,PASSED
+delay(2),Safari 12,,2019-08-13 09:50:32,2019-08-13 09:50:34,2.001s,PASSED
+p1 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Safari 12,,2019-08-13 09:50:34,2019-08-13 09:50:34,0.000s,PASSED
+p2 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Safari 12,,2019-08-13 09:50:34,2019-08-13 09:50:34,0.000s,PASSED
+try,Safari 12,,2019-08-13 09:50:34,2019-08-13 09:50:34,0.013s,PASSED
+try,Safari 12,,2019-08-13 09:50:34,2019-08-13 09:50:34,0.003s,PASSED
+"flag = verifyNotEqual(p1, p2)",Safari 12,,2019-08-13 09:50:34,2019-08-13 09:50:34,0.013s,PASSED
+if (flag == true),Safari 12,,2019-08-13 09:50:34,2019-08-13 09:50:34,0.002s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart page/Check out - cart page""))",Safari 12,,2019-08-13 09:50:34,2019-08-13 09:50:37,2.569s,PASSED
+"callTestCase(findTestCase(""CALL - CUTOMER INFO PAGE""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:50:37,2019-08-13 09:50:55,18.402s,PASSED
+"callTestCase(findTestCase(""CALL- SHIPPING TO PAYMENT""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:50:55,2019-08-13 09:51:02,6.900s,PASSED
+,,,,,,
+Test Cases/CRITICAL PATH - SPANISH/Login and Logout,Safari 12,,2019-08-13 09:51:02,2019-08-13 09:51:37,35.157s,PASSED
+"callTestCase(findTestCase(""CALL - LANGUAGE TOGGLER""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:51:02,2019-08-13 09:51:11,8.643s,PASSED
+delay(2),Safari 12,,2019-08-13 09:51:11,2019-08-13 09:51:13,2.002s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Home page/Login/Account icon""))",Safari 12,,2019-08-13 09:51:13,2019-08-13 09:51:14,1.253s,PASSED
+delay(2),Safari 12,,2019-08-13 09:51:14,2019-08-13 09:51:16,2.006s,PASSED
+"setText(findTestObject(""CR-DESKTOP/Home page/Login/Email""), ""suman.kompelly+1@diffagency.com"")",Safari 12,,2019-08-13 09:51:16,2019-08-13 09:51:16,0.386s,PASSED
+delay(2),Safari 12,,2019-08-13 09:51:16,2019-08-13 09:51:18,2.004s,PASSED
+"setEncryptedText(findTestObject(""CR-DESKTOP/Home page/Login/Password""), ""5xx1bkCcAlw="")",Safari 12,,2019-08-13 09:51:18,2019-08-13 09:51:19,0.207s,PASSED
+delay(2),Safari 12,,2019-08-13 09:51:19,2019-08-13 09:51:21,2.008s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Login/Login button""))",Safari 12,,2019-08-13 09:51:21,2019-08-13 09:51:21,0.085s,PASSED
+delay(2),Safari 12,,2019-08-13 09:51:21,2019-08-13 09:51:23,2.002s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Home page/Login/a_View Addresses (0)""))",Safari 12,,2019-08-13 09:51:23,2019-08-13 09:51:24,1.431s,PASSED
+delay(2),Safari 12,,2019-08-13 09:51:24,2019-08-13 09:51:26,2.003s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Login/Add new address/button_Add a New Address""))",Safari 12,,2019-08-13 09:51:26,2019-08-13 09:51:26,0.002s,NOT_RUN
+"setText(findTestObject(""CR-DESKTOP/Home page/Login/Add new address/input_First Name_addressfirst_""), ""xxx"")",Safari 12,,2019-08-13 09:51:26,2019-08-13 09:51:26,0.000s,NOT_RUN
+"setText(findTestObject(""CR-DESKTOP/Home page/Login/Add new address/input_Last Name_addresslast_na""), ""yyy"")",Safari 12,,2019-08-13 09:51:26,2019-08-13 09:51:26,0.002s,NOT_RUN
+"setText(findTestObject(""CR-DESKTOP/Home page/Login/Add new address/input_Company_addresscompany""), ""zzzz"")",Safari 12,,2019-08-13 09:51:26,2019-08-13 09:51:26,0.001s,NOT_RUN
+"setText(findTestObject(""CR-DESKTOP/Home page/Login/Add new address/input_Address 1_addressaddress""), ""1435 saint alxendre"")",Safari 12,,2019-08-13 09:51:26,2019-08-13 09:51:26,0.002s,NOT_RUN
+"setText(findTestObject(""CR-DESKTOP/Home page/Login/Add new address/input_Address 2_addressaddress""), ""399"")",Safari 12,,2019-08-13 09:51:26,2019-08-13 09:51:26,0.001s,NOT_RUN
+"setText(findTestObject(""CR-DESKTOP/Home page/Login/Add new address/input_City_addresscity""), ""montreal"")",Safari 12,,2019-08-13 09:51:26,2019-08-13 09:51:26,0.000s,NOT_RUN
+"selectOptionByValue(findTestObject(""CR-DESKTOP/Home page/Login/Add new address/select_AlabamaAlaskaAmerican S""), ""New Jersey"", true)",Safari 12,,2019-08-13 09:51:26,2019-08-13 09:51:26,0.000s,NOT_RUN
+"setText(findTestObject(""CR-DESKTOP/Home page/Login/Add new address/input_PostalZip Code_addresszi""), ""07057"")",Safari 12,,2019-08-13 09:51:26,2019-08-13 09:51:26,0.001s,NOT_RUN
+"setText(findTestObject(""CR-DESKTOP/Home page/Login/Add new address/input_Phone_addressphone""), ""5144493883"")",Safari 12,,2019-08-13 09:51:26,2019-08-13 09:51:26,0.001s,NOT_RUN
+"click(findTestObject(""CR-DESKTOP/Home page/Login/Add new address/input_Set as default address_b""))",Safari 12,,2019-08-13 09:51:26,2019-08-13 09:51:26,0.001s,NOT_RUN
+delay(2),Safari 12,,2019-08-13 09:51:26,2019-08-13 09:51:26,0.001s,NOT_RUN
+"click(findTestObject(""CR-DESKTOP/Home page/Login/Delete button""))",Safari 12,,2019-08-13 09:51:26,2019-08-13 09:51:26,0.001s,NOT_RUN
+delay(2),Safari 12,,2019-08-13 09:51:26,2019-08-13 09:51:28,2.005s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Home page/Login/a_Return to Account Details""))",Safari 12,,2019-08-13 09:51:28,2019-08-13 09:51:29,1.064s,PASSED
+delay(2),Safari 12,,2019-08-13 09:51:29,2019-08-13 09:51:31,2.007s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Home page/Login/a_Wishlist""))",Safari 12,,2019-08-13 09:51:31,2019-08-13 09:51:33,1.925s,PASSED
+back(),Safari 12,,2019-08-13 09:51:33,2019-08-13 09:51:34,0.407s,PASSED
+delay(2),Safari 12,,2019-08-13 09:51:34,2019-08-13 09:51:36,2.005s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Home page/Login/a_Logout""))",Safari 12,,2019-08-13 09:51:36,2019-08-13 09:51:37,1.554s,PASSED
+,,,,,,
+Test Cases/CRITICAL PATH - SPANISH/Decrease quantity - cart flyout,Safari 12,,2019-08-13 09:51:37,2019-08-13 09:53:04,1m - 26.894s,PASSED
+"callTestCase(findTestCase(""CALL - LANGUAGE TOGGLER""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:51:37,2019-08-13 09:51:50,12.616s,PASSED
+delay(2),Safari 12,,2019-08-13 09:51:50,2019-08-13 09:51:52,2.005s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/SHOES""))",Safari 12,,2019-08-13 09:51:52,2019-08-13 09:51:52,0.178s,PASSED
+delay(2),Safari 12,,2019-08-13 09:51:52,2019-08-13 09:51:54,2.006s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/shoes - tenis""))",Safari 12,,2019-08-13 09:51:54,2019-08-13 09:51:57,2.540s,PASSED
+delay(2),Safari 12,,2019-08-13 09:51:57,2019-08-13 09:51:59,2.008s,PASSED
+"click(findTestObject(""CR-DESKTOP/Collection page/product 3""))",Safari 12,,2019-08-13 09:51:59,2019-08-13 09:52:00,1.305s,PASSED
+delay(2),Safari 12,,2019-08-13 09:52:00,2019-08-13 09:52:02,2.005s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/product page/verde neon""))",Safari 12,,2019-08-13 09:52:02,2019-08-13 09:52:02,0.083s,PASSED
+delay(2),Safari 12,,2019-08-13 09:52:02,2019-08-13 09:52:04,2.005s,PASSED
+"click(findTestObject(""CR-DESKTOP/product page/Size -6""))",Safari 12,,2019-08-13 09:52:04,2019-08-13 09:52:04,0.095s,PASSED
+delay(2),Safari 12,,2019-08-13 09:52:04,2019-08-13 09:52:06,2.005s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/product page/Add to bag""))",Safari 12,,2019-08-13 09:52:06,2019-08-13 09:52:06,0.095s,PASSED
+delay(2),Safari 12,,2019-08-13 09:52:06,2019-08-13 09:52:08,2.002s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/cart quantity increase - cart flyout""))",Safari 12,,2019-08-13 09:52:08,2019-08-13 09:52:09,0.098s,PASSED
+delay(2),Safari 12,,2019-08-13 09:52:09,2019-08-13 09:52:11,2.010s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/cart quantity increase - cart flyout""))",Safari 12,,2019-08-13 09:52:11,2019-08-13 09:52:11,0.088s,PASSED
+delay(2),Safari 12,,2019-08-13 09:52:11,2019-08-13 09:52:13,2.002s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/cart quantity increase - cart flyout""))",Safari 12,,2019-08-13 09:52:13,2019-08-13 09:52:13,0.063s,PASSED
+delay(2),Safari 12,,2019-08-13 09:52:13,2019-08-13 09:52:15,2.005s,PASSED
+"a = getText(findTestObject(""CR-DESKTOP/Cart flyout/Get price - subtotal""))",Safari 12,,2019-08-13 09:52:15,2019-08-13 09:52:15,0.036s,PASSED
+delay(2),Safari 12,,2019-08-13 09:52:15,2019-08-13 09:52:17,2.003s,PASSED
+"comment(""a="" + a)",Safari 12,,2019-08-13 09:52:17,2019-08-13 09:52:17,0.001s,PASSED
+a1 = a.substring(1),Safari 12,,2019-08-13 09:52:17,2019-08-13 09:52:17,0.000s,PASSED
+"comment(""a1="" + a1)",Safari 12,,2019-08-13 09:52:17,2019-08-13 09:52:17,0.001s,PASSED
+delay(2),Safari 12,,2019-08-13 09:52:17,2019-08-13 09:52:19,2.006s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/cart quantity decrease - cart flyout""))",Safari 12,,2019-08-13 09:52:19,2019-08-13 09:52:19,0.049s,PASSED
+delay(2),Safari 12,,2019-08-13 09:52:19,2019-08-13 09:52:21,2.005s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/cart quantity decrease - cart flyout""))",Safari 12,,2019-08-13 09:52:21,2019-08-13 09:52:21,0.137s,PASSED
+delay(2),Safari 12,,2019-08-13 09:52:21,2019-08-13 09:52:23,2.004s,PASSED
+"setText(findTestObject(""CR-DESKTOP/Cart flyout/Input update - cart flyout""), ""1"")",Safari 12,,2019-08-13 09:52:23,2019-08-13 09:52:23,0.134s,PASSED
+delay(2),Safari 12,,2019-08-13 09:52:23,2019-08-13 09:52:25,2.005s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/click outside""))",Safari 12,,2019-08-13 09:52:25,2019-08-13 09:52:25,0.112s,PASSED
+delay(2),Safari 12,,2019-08-13 09:52:25,2019-08-13 09:52:27,2.002s,PASSED
+"b = getText(findTestObject(""CR-DESKTOP/Cart flyout/Get price - subtotal""))",Safari 12,,2019-08-13 09:52:27,2019-08-13 09:52:27,0.031s,PASSED
+delay(2),Safari 12,,2019-08-13 09:52:27,2019-08-13 09:52:29,2.002s,PASSED
+"comment(""b="" + b)",Safari 12,,2019-08-13 09:52:29,2019-08-13 09:52:29,0.001s,PASSED
+b1 = b.substring(1),Safari 12,,2019-08-13 09:52:29,2019-08-13 09:52:29,0.000s,PASSED
+"comment(""b1="" + b1)",Safari 12,,2019-08-13 09:52:29,2019-08-13 09:52:29,0.000s,PASSED
+delay(2),Safari 12,,2019-08-13 09:52:29,2019-08-13 09:52:31,2.004s,PASSED
+p1 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Safari 12,,2019-08-13 09:52:31,2019-08-13 09:52:31,0.001s,PASSED
+p2 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Safari 12,,2019-08-13 09:52:31,2019-08-13 09:52:31,0.000s,PASSED
+try,Safari 12,,2019-08-13 09:52:31,2019-08-13 09:52:31,0.004s,PASSED
+try,Safari 12,,2019-08-13 09:52:31,2019-08-13 09:52:31,0.003s,PASSED
+"flag = verifyNotEqual(p1, p2)",Safari 12,,2019-08-13 09:52:31,2019-08-13 09:52:31,0.000s,PASSED
+if (flag == true),Safari 12,,2019-08-13 09:52:31,2019-08-13 09:52:31,0.002s,PASSED
+delay(2),Safari 12,,2019-08-13 09:52:31,2019-08-13 09:52:33,2.005s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/Checkout""))",Safari 12,,2019-08-13 09:52:33,2019-08-13 09:52:33,0.028s,PASSED
+"callTestCase(findTestCase(""CALL - CUTOMER INFO PAGE""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:52:33,2019-08-13 09:52:52,18.687s,PASSED
+"callTestCase(findTestCase(""CALL- SHIPPING TO PAYMENT""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:52:52,2019-08-13 09:53:04,12.126s,PASSED
+,,,,,,
+Test Cases/CRITICAL PATH - SPANISH/Adding products - Search flyout,Safari 12,,2019-08-13 09:53:04,2019-08-13 09:53:44,40.181s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:53:04,2019-08-13 09:53:11,6.075s,PASSED
+delay(2),Safari 12,,2019-08-13 09:53:11,2019-08-13 09:53:13,2.005s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Home page/Search flyout""))",Safari 12,,2019-08-13 09:53:13,2019-08-13 09:53:44,31.689s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH - SPANISH/Adding products - home page,Safari 12,,2019-08-13 09:53:44,2019-08-13 09:55:18,1m - 33.755s,PASSED
+"callTestCase(findTestCase(""CALL - LANGUAGE TOGGLER""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:53:44,2019-08-13 09:53:53,9.084s,PASSED
+delay(2),Safari 12,,2019-08-13 09:53:53,2019-08-13 09:53:55,2.004s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Home page/Add prod - home page/Hero banner - 1 st""))",Safari 12,,2019-08-13 09:53:55,2019-08-13 09:53:56,0.203s,PASSED
+delay(2),Safari 12,,2019-08-13 09:53:56,2019-08-13 09:53:58,2.004s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Add prod - home page/1 st product""))",Safari 12,,2019-08-13 09:53:58,2019-08-13 09:54:01,3.586s,PASSED
+delay(2),Safari 12,,2019-08-13 09:54:01,2019-08-13 09:54:03,2.002s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Home page/Add prod - home page/Black variant""))",Safari 12,,2019-08-13 09:54:03,2019-08-13 09:54:03,0.133s,PASSED
+delay(2),Safari 12,,2019-08-13 09:54:03,2019-08-13 09:54:05,2.006s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Add prod - home page/Size - SP""))",Safari 12,,2019-08-13 09:54:05,2019-08-13 09:54:06,0.551s,PASSED
+delay(2),Safari 12,,2019-08-13 09:54:06,2019-08-13 09:54:08,2.002s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/product page/Add to bag""))",Safari 12,,2019-08-13 09:54:08,2019-08-13 09:54:08,0.063s,PASSED
+delay(2),Safari 12,,2019-08-13 09:54:08,2019-08-13 09:54:10,2.005s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/cart collpase""))",Safari 12,,2019-08-13 09:54:10,2019-08-13 09:54:10,0.084s,PASSED
+delay(2),Safari 12,,2019-08-13 09:54:10,2019-08-13 09:54:12,2.006s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Add prod - home page/Charlotte russe icon""))",Safari 12,,2019-08-13 09:54:12,2019-08-13 09:54:15,2.532s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Home page/Add prod - home page/Hero banner - 2nd""))",Safari 12,,2019-08-13 09:54:15,2019-08-13 09:54:19,4.475s,PASSED
+delay(2),Safari 12,,2019-08-13 09:54:19,2019-08-13 09:54:21,2.003s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Add prod - home page/2 nd product""))",Safari 12,,2019-08-13 09:54:21,2019-08-13 09:54:21,0.086s,PASSED
+delay(2),Safari 12,,2019-08-13 09:54:21,2019-08-13 09:54:23,2.006s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Add prod - home page/Size - SP""))",Safari 12,,2019-08-13 09:54:23,2019-08-13 09:54:24,0.499s,PASSED
+delay(2),Safari 12,,2019-08-13 09:54:24,2019-08-13 09:54:26,2.002s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/product page/Add to bag""))",Safari 12,,2019-08-13 09:54:26,2019-08-13 09:54:26,0.156s,PASSED
+delay(2),Safari 12,,2019-08-13 09:54:26,2019-08-13 09:54:28,2.012s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/cart collpase""))",Safari 12,,2019-08-13 09:54:28,2019-08-13 09:54:29,0.980s,PASSED
+delay(2),Safari 12,,2019-08-13 09:54:29,2019-08-13 09:54:31,2.004s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Add prod - home page/Charlotte russe icon""))",Safari 12,,2019-08-13 09:54:31,2019-08-13 09:54:33,2.445s,PASSED
+delay(2),Safari 12,,2019-08-13 09:54:33,2019-08-13 09:54:35,2.013s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Home page/Add prod - home page/middle tile - home page""))",Safari 12,,2019-08-13 09:54:35,2019-08-13 09:54:39,3.734s,PASSED
+delay(2),Safari 12,,2019-08-13 09:54:39,2019-08-13 09:54:41,2.009s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Add prod - home page/3 rd product""))",Safari 12,,2019-08-13 09:54:41,2019-08-13 09:54:43,1.891s,PASSED
+delay(2),Safari 12,,2019-08-13 09:54:43,2019-08-13 09:54:45,2.010s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Home page/Add prod - home page/Neon orange varaint""))",Safari 12,,2019-08-13 09:54:45,2019-08-13 09:54:45,0.137s,PASSED
+delay(2),Safari 12,,2019-08-13 09:54:45,2019-08-13 09:54:47,2.020s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Add prod - home page/Size - SP""))",Safari 12,,2019-08-13 09:54:47,2019-08-13 09:54:47,0.093s,PASSED
+delay(2),Safari 12,,2019-08-13 09:54:47,2019-08-13 09:54:49,2.009s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/product page/Add to bag""))",Safari 12,,2019-08-13 09:54:49,2019-08-13 09:54:49,0.128s,PASSED
+delay(2),Safari 12,,2019-08-13 09:54:49,2019-08-13 09:54:51,2.005s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/Checkout""))",Safari 12,,2019-08-13 09:54:51,2019-08-13 09:54:55,3.956s,PASSED
+"callTestCase(findTestCase(""CALL - CUTOMER INFO PAGE""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:54:55,2019-08-13 09:55:09,13.393s,PASSED
+"callTestCase(findTestCase(""CALL- SHIPPING TO PAYMENT""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:55:09,2019-08-13 09:55:18,9.304s,PASSED
+,,,,,,
+Test Cases/CRITICAL PATH - SPANISH/Price comparison - cart flyout,Safari 12,,2019-08-13 09:55:18,2019-08-13 09:55:52,33.474s,FAILED
+"callTestCase(findTestCase(""CALL - LANGUAGE TOGGLER""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:55:18,2019-08-13 09:55:25,7.099s,PASSED
+delay(2),Safari 12,,2019-08-13 09:55:25,2019-08-13 09:55:27,2.011s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/SHOES""))",Safari 12,,2019-08-13 09:55:27,2019-08-13 09:55:28,0.184s,PASSED
+delay(2),Safari 12,,2019-08-13 09:55:28,2019-08-13 09:55:30,2.010s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/shoes - tenis""))",Safari 12,,2019-08-13 09:55:30,2019-08-13 09:55:30,0.039s,PASSED
+delay(2),Safari 12,,2019-08-13 09:55:30,2019-08-13 09:55:32,2.010s,PASSED
+"click(findTestObject(""CR-DESKTOP/Collection page/product 3""))",Safari 12,,2019-08-13 09:55:32,2019-08-13 09:55:33,1.745s,PASSED
+delay(2),Safari 12,,2019-08-13 09:55:33,2019-08-13 09:55:35,2.008s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/product page/verde neon""))",Safari 12,,2019-08-13 09:55:35,2019-08-13 09:55:36,0.478s,PASSED
+delay(2),Safari 12,,2019-08-13 09:55:36,2019-08-13 09:55:38,2.002s,PASSED
+"click(findTestObject(""CR-DESKTOP/product page/Size -6""))",Safari 12,,2019-08-13 09:55:38,2019-08-13 09:55:38,0.547s,PASSED
+delay(2),Safari 12,,2019-08-13 09:55:38,2019-08-13 09:55:40,2.006s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/product page/Add to bag""))",Safari 12,,2019-08-13 09:55:40,2019-08-13 09:55:42,1.845s,PASSED
+delay(2),Safari 12,,2019-08-13 09:55:42,2019-08-13 09:55:44,2.005s,PASSED
+"setText(findTestObject(""CR-DESKTOP - SPANISH/Cart flyout/Input update - cart flyout""), ""8"")",Safari 12,,2019-08-13 09:55:44,2019-08-13 09:55:45,0.744s,PASSED
+delay(2),Safari 12,,2019-08-13 09:55:45,2019-08-13 09:55:47,2.007s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/cart collpase""))",Safari 12,,2019-08-13 09:55:47,2019-08-13 09:55:47,0.091s,PASSED
+delay(2),Safari 12,,2019-08-13 09:55:47,2019-08-13 09:55:49,2.010s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/a_Jeans""))",Safari 12,,2019-08-13 09:55:49,2019-08-13 09:55:49,0.207s,PASSED
+delay(2),Safari 12,,2019-08-13 09:55:49,2019-08-13 09:55:51,2.010s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/Jeans- Boy friend jeans""))",Safari 12,,2019-08-13 09:55:51,2019-08-13 09:55:52,0.212s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH - SPANISH/Different products,Safari 12,,2019-08-13 09:55:52,2019-08-13 09:56:05,13.826s,FAILED
+"callTestCase(findTestCase(""CALL - LANGUAGE TOGGLER""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:55:52,2019-08-13 09:56:00,8.711s,PASSED
+delay(2),Safari 12,,2019-08-13 09:56:00,2019-08-13 09:56:02,2.007s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/SHOES""))",Safari 12,,2019-08-13 09:56:02,2019-08-13 09:56:03,0.151s,PASSED
+delay(2),Safari 12,,2019-08-13 09:56:03,2019-08-13 09:56:05,2.008s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/shoes - tenis""))",Safari 12,,2019-08-13 09:56:05,2019-08-13 09:56:05,0.794s,FAILED
+,,,,,,
+Test Cases/COLLECTION PAGE/Bread crumbs,Safari 12,,2019-08-13 09:56:05,2019-08-13 09:56:21,15.941s,PASSED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:56:05,2019-08-13 09:56:10,4.459s,PASSED
+delay(2),Safari 12,,2019-08-13 09:56:10,2019-08-13 09:56:12,2.017s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Mega menu/SHOES""))",Safari 12,,2019-08-13 09:56:12,2019-08-13 09:56:12,0.141s,PASSED
+delay(2),Safari 12,,2019-08-13 09:56:12,2019-08-13 09:56:14,2.006s,PASSED
+"click(findTestObject(""CR-DESKTOP/Mega menu/shoes - sneakers""))",Safari 12,,2019-08-13 09:56:14,2019-08-13 09:56:16,1.902s,PASSED
+delay(2),Safari 12,,2019-08-13 09:56:16,2019-08-13 09:56:18,2.003s,PASSED
+a = getWindowTitle(),Safari 12,,2019-08-13 09:56:18,2019-08-13 09:56:18,0.034s,PASSED
+"comment("" a= "" + a)",Safari 12,,2019-08-13 09:56:18,2019-08-13 09:56:18,0.000s,PASSED
+"k = ""Charlotte Russe | Shoes - Shop Sneakers""",Safari 12,,2019-08-13 09:56:18,2019-08-13 09:56:18,0.001s,PASSED
+"comment("" k= "" + k)",Safari 12,,2019-08-13 09:56:18,2019-08-13 09:56:18,0.000s,PASSED
+if (a == k),Safari 12,,2019-08-13 09:56:18,2019-08-13 09:56:18,0.001s,PASSED
+"click(findTestObject(""CR-DESKTOP/Collection page/shoes link""))",Safari 12,,2019-08-13 09:56:18,2019-08-13 09:56:20,2.259s,PASSED
+b = getWindowTitle(),Safari 12,,2019-08-13 09:56:20,2019-08-13 09:56:20,0.032s,PASSED
+"comment("" b= "" + b)",Safari 12,,2019-08-13 09:56:20,2019-08-13 09:56:20,0.000s,PASSED
+"k1 = ""Charlotte Russe | Shoes - Shop All Shoes""",Safari 12,,2019-08-13 09:56:20,2019-08-13 09:56:20,0.001s,PASSED
+"comment("" k1= "" + k1)",Safari 12,,2019-08-13 09:56:20,2019-08-13 09:56:20,0.000s,PASSED
+if (b == k1),Safari 12,,2019-08-13 09:56:20,2019-08-13 09:56:20,0.001s,PASSED
+"click(findTestObject(""CR-DESKTOP/Collection page/Home link""))",Safari 12,,2019-08-13 09:56:20,2019-08-13 09:56:21,0.994s,PASSED
+c = getWindowTitle(),Safari 12,,2019-08-13 09:56:21,2019-08-13 09:56:21,0.014s,PASSED
+"comment("" c= "" + c)",Safari 12,,2019-08-13 09:56:21,2019-08-13 09:56:21,0.000s,PASSED
+"k3 = ""Charlotte Russe""",Safari 12,,2019-08-13 09:56:21,2019-08-13 09:56:21,0.000s,PASSED
+"comment("" k3= "" + k3)",Safari 12,,2019-08-13 09:56:21,2019-08-13 09:56:21,0.000s,PASSED
+if (c == k3),Safari 12,,2019-08-13 09:56:21,2019-08-13 09:56:21,0.001s,PASSED
+,,,,,,
+Test Cases/COLLECTION PAGE/Quick add hovering,Safari 12,,2019-08-13 09:56:21,2019-08-13 09:57:11,49.887s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:56:21,2019-08-13 09:56:26,4.501s,PASSED
+delay(2),Safari 12,,2019-08-13 09:56:26,2019-08-13 09:56:28,2.006s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Mega menu/SHOES""))",Safari 12,,2019-08-13 09:56:28,2019-08-13 09:56:28,0.142s,PASSED
+delay(2),Safari 12,,2019-08-13 09:56:28,2019-08-13 09:56:30,2.010s,PASSED
+"click(findTestObject(""CR-DESKTOP/Mega menu/shoes - sneakers""))",Safari 12,,2019-08-13 09:56:30,2019-08-13 09:56:30,0.055s,PASSED
+delay(2),Safari 12,,2019-08-13 09:56:30,2019-08-13 09:56:32,2.008s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Collection page/product 1 - sneakers""))",Safari 12,,2019-08-13 09:56:32,2019-08-13 09:56:32,0.126s,PASSED
+delay(2),Safari 12,,2019-08-13 09:56:32,2019-08-13 09:56:34,2.010s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Collection page/product 2 - sneakers""))",Safari 12,,2019-08-13 09:56:34,2019-08-13 09:56:34,0.149s,PASSED
+delay(2),Safari 12,,2019-08-13 09:56:34,2019-08-13 09:56:36,2.012s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Collection page/product 3""))",Safari 12,,2019-08-13 09:56:36,2019-08-13 09:56:37,0.548s,PASSED
+delay(2),Safari 12,,2019-08-13 09:56:37,2019-08-13 09:56:39,2.011s,PASSED
+"click(findTestObject(""CR-DESKTOP/Collection page/First slider""))",Safari 12,,2019-08-13 09:56:39,2019-08-13 09:57:11,32.226s,FAILED
+,,,,,,
+Test Cases/HOME PAGE/Store locator,Safari 12,,2019-08-13 09:57:11,2019-08-13 09:57:53,42.106s,PASSED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:57:11,2019-08-13 09:57:17,5.427s,PASSED
+delay(2),Safari 12,,2019-08-13 09:57:17,2019-08-13 09:57:19,2.015s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Store Locator/store locator icon""))",Safari 12,,2019-08-13 09:57:19,2019-08-13 09:57:20,1.484s,PASSED
+delay(2),Safari 12,,2019-08-13 09:57:20,2019-08-13 09:57:22,2.011s,PASSED
+"a = getText(findTestObject(""CR-DESKTOP/Home page/Store Locator/Results total list""))",Safari 12,,2019-08-13 09:57:22,2019-08-13 09:57:22,0.043s,PASSED
+"comment(""a="" + a)",Safari 12,,2019-08-13 09:57:22,2019-08-13 09:57:22,0.001s,PASSED
+delay(2),Safari 12,,2019-08-13 09:57:22,2019-08-13 09:57:24,2.006s,PASSED
+"setText(findTestObject(""CR-DESKTOP/Home page/Store Locator/Search input""), ""49418"")",Safari 12,,2019-08-13 09:57:24,2019-08-13 09:57:24,0.186s,PASSED
+delay(2),Safari 12,,2019-08-13 09:57:24,2019-08-13 09:57:26,2.009s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Store Locator/Search""))",Safari 12,,2019-08-13 09:57:26,2019-08-13 09:57:27,0.088s,PASSED
+delay(2),Safari 12,,2019-08-13 09:57:27,2019-08-13 09:57:29,2.005s,PASSED
+"b = getText(findTestObject(""CR-DESKTOP/Home page/Store Locator/Results list after""))",Safari 12,,2019-08-13 09:57:29,2019-08-13 09:57:29,0.048s,PASSED
+"comment(""b="" + b)",Safari 12,,2019-08-13 09:57:29,2019-08-13 09:57:29,0.000s,PASSED
+k = 17,Safari 12,,2019-08-13 09:57:29,2019-08-13 09:57:29,0.001s,PASSED
+"verifyNotEqual(""b"", ""k"")",Safari 12,,2019-08-13 09:57:29,2019-08-13 09:57:29,0.000s,PASSED
+refresh(),Safari 12,,2019-08-13 09:57:29,2019-08-13 09:57:30,1.410s,PASSED
+delay(2),Safari 12,,2019-08-13 09:57:30,2019-08-13 09:57:32,2.006s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Store Locator/Distance filter""))",Safari 12,,2019-08-13 09:57:32,2019-08-13 09:57:32,0.127s,PASSED
+delay(2),Safari 12,,2019-08-13 09:57:32,2019-08-13 09:57:34,2.008s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Store Locator/Radio button""))",Safari 12,,2019-08-13 09:57:34,2019-08-13 09:57:34,0.094s,PASSED
+delay(2),Safari 12,,2019-08-13 09:57:34,2019-08-13 09:57:36,2.005s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Store Locator/Filter""))",Safari 12,,2019-08-13 09:57:36,2019-08-13 09:57:36,0.098s,PASSED
+delay(2),Safari 12,,2019-08-13 09:57:36,2019-08-13 09:57:38,2.010s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Store Locator/Label - until 9pm""))",Safari 12,,2019-08-13 09:57:38,2019-08-13 09:57:38,0.085s,PASSED
+delay(2),Safari 12,,2019-08-13 09:57:38,2019-08-13 09:57:40,2.008s,PASSED
+"c = getText(findTestObject(""CR-DESKTOP/Home page/Store Locator/Results list after filter""))",Safari 12,,2019-08-13 09:57:40,2019-08-13 09:57:40,0.047s,PASSED
+"comment(""c="" + c)",Safari 12,,2019-08-13 09:57:40,2019-08-13 09:57:40,0.002s,PASSED
+delay(2),Safari 12,,2019-08-13 09:57:40,2019-08-13 09:57:42,2.009s,PASSED
+"verifyNotEqual(""b"", ""k"")",Safari 12,,2019-08-13 09:57:42,2019-08-13 09:57:42,0.001s,PASSED
+delay(2),Safari 12,,2019-08-13 09:57:42,2019-08-13 09:57:44,2.002s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Store Locator/Clear filter""))",Safari 12,,2019-08-13 09:57:44,2019-08-13 09:57:45,0.385s,PASSED
+delay(2),Safari 12,,2019-08-13 09:57:45,2019-08-13 09:57:47,2.006s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Store Locator/Next button""))",Safari 12,,2019-08-13 09:57:47,2019-08-13 09:57:47,0.342s,PASSED
+delay(2),Safari 12,,2019-08-13 09:57:47,2019-08-13 09:57:49,2.002s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Store Locator/Prev - button""))",Safari 12,,2019-08-13 09:57:49,2019-08-13 09:57:49,0.246s,PASSED
+delay(2),Safari 12,,2019-08-13 09:57:49,2019-08-13 09:57:51,2.008s,PASSED
+"selectOptionByValue(findTestObject(""CR-DESKTOP/Home page/Store Locator/select dropdown""), ""2"", true)",Safari 12,,2019-08-13 09:57:51,2019-08-13 09:57:53,1.802s,PASSED
+,,,,,,
+Test Cases/HOME PAGE/New arrivals,Safari 12,,2019-08-13 09:57:53,2019-08-13 09:58:07,13.715s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:57:54,2019-08-13 09:58:02,8.604s,PASSED
+delay(2),Safari 12,,2019-08-13 09:58:02,2019-08-13 09:58:04,2.015s,PASSED
+"scrollToElement(findTestObject(""CR-DESKTOP/Home page/New arrivals/New arrivals""), 0)",Safari 12,,2019-08-13 09:58:04,2019-08-13 09:58:04,0.035s,PASSED
+delay(2),Safari 12,,2019-08-13 09:58:04,2019-08-13 09:58:06,2.010s,PASSED
+"for ([i = 1, i <= 3, (i++)])",Safari 12,,2019-08-13 09:58:06,2019-08-13 09:58:07,0.764s,FAILED
+,,,,,,
+Test Cases/HOME PAGE/Mega menu navigation,Safari 12,,2019-08-13 09:58:07,2019-08-13 09:58:23,16.312s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:58:07,2019-08-13 09:58:18,11.061s,PASSED
+delay(2),Safari 12,,2019-08-13 09:58:18,2019-08-13 09:58:20,2.007s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Mega menu/NEW""))",Safari 12,,2019-08-13 09:58:20,2019-08-13 09:58:20,0.128s,PASSED
+delay(2),Safari 12,,2019-08-13 09:58:20,2019-08-13 09:58:22,2.009s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Mega menu/NEW""))",Safari 12,,2019-08-13 09:58:22,2019-08-13 09:58:23,0.138s,PASSED
+"click(findTestObject(""CR-DESKTOP/Mega menu/New - Shoes""))",Safari 12,,2019-08-13 09:58:23,2019-08-13 09:58:23,0.790s,FAILED
+,,,,,,
+Test Cases/HOME PAGE/Recommended for you,Safari 12,,2019-08-13 09:58:23,2019-08-13 09:58:36,12.299s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:58:23,2019-08-13 09:58:29,5.588s,PASSED
+delay(2),Safari 12,,2019-08-13 09:58:29,2019-08-13 09:58:31,2.008s,PASSED
+"scrollToElement(findTestObject(""CR-DESKTOP/Home page/Recomended for you/Recomended for you section""), 0)",Safari 12,,2019-08-13 09:58:31,2019-08-13 09:58:31,0.081s,PASSED
+delay(2),Safari 12,,2019-08-13 09:58:31,2019-08-13 09:58:33,2.008s,PASSED
+"for ([i = 1, i <= 3, (i++)])",Safari 12,,2019-08-13 09:58:33,2019-08-13 09:58:36,2.532s,FAILED
+,,,,,,
+Test Cases/HOME PAGE/Home page - CTA,Safari 12,,2019-08-13 09:58:36,2019-08-13 09:58:50,14.785s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:58:36,2019-08-13 09:58:40,4.702s,PASSED
+delay(2),Safari 12,,2019-08-13 09:58:40,2019-08-13 09:58:42,2.014s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Add prod - home page/Hero banner - 1 st""))",Safari 12,,2019-08-13 09:58:42,2019-08-13 09:58:46,3.577s,PASSED
+delay(2),Safari 12,,2019-08-13 09:58:46,2019-08-13 09:58:48,2.008s,PASSED
+getWindowTitle(),Safari 12,,2019-08-13 09:58:48,2019-08-13 09:58:48,0.041s,PASSED
+delay(2),Safari 12,,2019-08-13 09:58:48,2019-08-13 09:58:50,2.003s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Add prod - home page/Charlotte russe icon""))",Safari 12,,2019-08-13 09:58:50,2019-08-13 09:58:50,0.283s,FAILED
+,,,,,,
+Test Cases/HOME PAGE/Language toggler,Safari 12,,2019-08-13 09:58:50,2019-08-13 09:59:00,9.431s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:58:50,2019-08-13 09:58:55,4.410s,PASSED
+delay(2),Safari 12,,2019-08-13 09:58:55,2019-08-13 09:58:57,2.009s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Spanish""))",Safari 12,,2019-08-13 09:58:57,2019-08-13 09:58:57,0.088s,PASSED
+delay(2),Safari 12,,2019-08-13 09:58:57,2019-08-13 09:58:59,2.008s,PASSED
+takeScreenshot(),Safari 12,,2019-08-13 09:58:59,2019-08-13 09:58:59,0.418s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-08-13 09:58:59,2019-08-13 09:58:59,0.000s,NOT_RUN
+"click(findTestObject(""CR-DESKTOP/Home page/English""))",Safari 12,,2019-08-13 09:58:59,2019-08-13 09:59:00,0.443s,FAILED
+,,,,,,
+Test Cases/HOME PAGE/Footer,Safari 12,,2019-08-13 09:59:00,2019-08-13 09:59:14,13.686s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:59:00,2019-08-13 09:59:08,7.943s,PASSED
+delay(2),Safari 12,,2019-08-13 09:59:08,2019-08-13 09:59:10,2.008s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Footer/a_Contact Us""))",Safari 12,,2019-08-13 09:59:10,2019-08-13 09:59:11,1.384s,PASSED
+delay(2),Safari 12,,2019-08-13 09:59:11,2019-08-13 09:59:13,2.006s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Footer/a_Track Order""))",Safari 12,,2019-08-13 09:59:13,2019-08-13 09:59:14,0.201s,FAILED
+,,,,,,
+Test Cases/HOME PAGE/Cart flyout opening,Safari 12,,2019-08-13 09:59:14,2019-08-13 09:59:14,0.100s,ERROR
+"callTestCase(findTestCase(""CALL - URL""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:59:14,2019-08-13 09:59:14,0.003s,ERROR
+,,,,,,
+Test Cases/PRODUCT PAGE/Product - breadcrumb,Safari 12,,2019-08-13 09:59:14,2019-08-13 09:59:31,16.866s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:59:14,2019-08-13 09:59:22,8.303s,PASSED
+delay(2),Safari 12,,2019-08-13 09:59:22,2019-08-13 09:59:24,2.009s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Mega menu/SHOES""))",Safari 12,,2019-08-13 09:59:24,2019-08-13 09:59:24,0.144s,PASSED
+delay(2),Safari 12,,2019-08-13 09:59:24,2019-08-13 09:59:26,2.010s,PASSED
+"click(findTestObject(""CR-DESKTOP/Mega menu/shoes - sneakers""))",Safari 12,,2019-08-13 09:59:26,2019-08-13 09:59:28,1.977s,PASSED
+delay(2),Safari 12,,2019-08-13 09:59:28,2019-08-13 09:59:30,2.004s,PASSED
+"click(findTestObject(""CR-DESKTOP/Collection page/product 3""))",Safari 12,,2019-08-13 09:59:30,2019-08-13 09:59:31,0.324s,FAILED
+,,,,,,
+Test Cases/PRODUCT PAGE/You may also like - Other customers viewed,Safari 12,,2019-08-13 09:59:31,2019-08-13 09:59:46,15.985s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:59:31,2019-08-13 09:59:38,7.115s,PASSED
+delay(2),Safari 12,,2019-08-13 09:59:38,2019-08-13 09:59:40,2.008s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Mega menu/SHOES""))",Safari 12,,2019-08-13 09:59:40,2019-08-13 09:59:40,0.144s,PASSED
+delay(2),Safari 12,,2019-08-13 09:59:40,2019-08-13 09:59:42,2.007s,PASSED
+"click(findTestObject(""CR-DESKTOP/Mega menu/shoes - sneakers""))",Safari 12,,2019-08-13 09:59:42,2019-08-13 09:59:44,2.217s,PASSED
+delay(2),Safari 12,,2019-08-13 09:59:44,2019-08-13 09:59:46,2.003s,PASSED
+"click(findTestObject(""CR-DESKTOP/Collection page/product 3""))",Safari 12,,2019-08-13 09:59:46,2019-08-13 09:59:46,0.230s,FAILED
+,,,,,,
+Test Cases/PRODUCT PAGE/Add to wishlist,Safari 12,,2019-08-13 09:59:46,2019-08-13 09:59:53,6.743s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:59:47,2019-08-13 09:59:51,4.225s,PASSED
+delay(2),Safari 12,,2019-08-13 09:59:51,2019-08-13 09:59:53,2.003s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Login/Account icon""))",Safari 12,,2019-08-13 09:59:53,2019-08-13 09:59:53,0.450s,FAILED
+,,,,,,
+Test Cases/PRODUCT PAGE/product image sliders - hovering,Safari 12,,2019-08-13 09:59:53,2019-08-13 10:00:03,9.534s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 09:59:53,2019-08-13 09:59:58,4.868s,PASSED
+delay(2),Safari 12,,2019-08-13 09:59:58,2019-08-13 10:00:00,2.011s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Mega menu/SHOES""))",Safari 12,,2019-08-13 10:00:00,2019-08-13 10:00:00,0.138s,PASSED
+delay(2),Safari 12,,2019-08-13 10:00:00,2019-08-13 10:00:02,2.004s,PASSED
+"click(findTestObject(""CR-DESKTOP/Mega menu/shoes - sneakers""))",Safari 12,,2019-08-13 10:00:02,2019-08-13 10:00:03,0.445s,FAILED
+,,,,,,
+Test Cases/PRODUCT PAGE/Recently viewed,Safari 12,,2019-08-13 10:00:03,2019-08-13 10:00:12,9.597s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 10:00:03,2019-08-13 10:00:08,4.990s,PASSED
+delay(2),Safari 12,,2019-08-13 10:00:08,2019-08-13 10:00:10,2.011s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Mega menu/SHOES""))",Safari 12,,2019-08-13 10:00:10,2019-08-13 10:00:10,0.136s,PASSED
+delay(2),Safari 12,,2019-08-13 10:00:10,2019-08-13 10:00:12,2.008s,PASSED
+"click(findTestObject(""CR-DESKTOP/Mega menu/shoes - sneakers""))",Safari 12,,2019-08-13 10:00:12,2019-08-13 10:00:12,0.391s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH/Increase quantity - cart page,Safari 12,,2019-08-13 10:00:12,2019-08-13 10:00:22,9.887s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 10:00:12,2019-08-13 10:00:18,5.105s,PASSED
+delay(2),Safari 12,,2019-08-13 10:00:18,2019-08-13 10:00:20,2.002s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Mega menu/SHOES""))",Safari 12,,2019-08-13 10:00:20,2019-08-13 10:00:20,0.148s,PASSED
+delay(2),Safari 12,,2019-08-13 10:00:20,2019-08-13 10:00:22,2.003s,PASSED
+"click(findTestObject(""CR-DESKTOP/Mega menu/shoes - sneakers""))",Safari 12,,2019-08-13 10:00:22,2019-08-13 10:00:22,0.537s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH/Increase quantity - cart flyout,Safari 12,,2019-08-13 10:00:22,2019-08-13 10:00:34,11.354s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 10:00:22,2019-08-13 10:00:29,6.615s,PASSED
+delay(2),Safari 12,,2019-08-13 10:00:29,2019-08-13 10:00:31,2.009s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Mega menu/SHOES""))",Safari 12,,2019-08-13 10:00:31,2019-08-13 10:00:31,0.146s,PASSED
+delay(2),Safari 12,,2019-08-13 10:00:31,2019-08-13 10:00:33,2.004s,PASSED
+"click(findTestObject(""CR-DESKTOP/Mega menu/shoes - sneakers""))",Safari 12,,2019-08-13 10:00:33,2019-08-13 10:00:34,0.493s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH/Quick add,Safari 12,,2019-08-13 10:00:34,2019-08-13 10:00:43,9.249s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 10:00:34,2019-08-13 10:00:38,4.631s,PASSED
+delay(2),Safari 12,,2019-08-13 10:00:38,2019-08-13 10:00:40,2.007s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Mega menu/SHOES""))",Safari 12,,2019-08-13 10:00:40,2019-08-13 10:00:40,0.138s,PASSED
+delay(2),Safari 12,,2019-08-13 10:00:40,2019-08-13 10:00:42,2.007s,PASSED
+"click(findTestObject(""CR-DESKTOP/Mega menu/shoes - sneakers""))",Safari 12,,2019-08-13 10:00:42,2019-08-13 10:00:43,0.398s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH/Price comparison - cart page,Safari 12,,2019-08-13 10:00:43,2019-08-13 10:00:52,9.080s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 10:00:43,2019-08-13 10:00:47,4.118s,PASSED
+delay(2),Safari 12,,2019-08-13 10:00:47,2019-08-13 10:00:49,2.010s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Mega menu/SHOES""))",Safari 12,,2019-08-13 10:00:49,2019-08-13 10:00:49,0.181s,PASSED
+delay(2),Safari 12,,2019-08-13 10:00:49,2019-08-13 10:00:51,2.010s,PASSED
+"click(findTestObject(""CR-DESKTOP/Mega menu/shoes - sneakers""))",Safari 12,,2019-08-13 10:00:51,2019-08-13 10:00:52,0.638s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH/Decrease quantity - cart page,Safari 12,,2019-08-13 10:00:52,2019-08-13 10:01:02,10.203s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 10:00:52,2019-08-13 10:00:57,4.928s,PASSED
+delay(2),Safari 12,,2019-08-13 10:00:57,2019-08-13 10:00:59,2.009s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Mega menu/SHOES""))",Safari 12,,2019-08-13 10:00:59,2019-08-13 10:00:59,0.131s,PASSED
+delay(2),Safari 12,,2019-08-13 10:00:59,2019-08-13 10:01:01,2.012s,PASSED
+"click(findTestObject(""CR-DESKTOP/Mega menu/shoes - sneakers""))",Safari 12,,2019-08-13 10:01:01,2019-08-13 10:01:02,0.749s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH/Login and Logout,Safari 12,,2019-08-13 10:01:02,2019-08-13 10:01:15,12.952s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 10:01:02,2019-08-13 10:01:13,10.394s,PASSED
+delay(2),Safari 12,,2019-08-13 10:01:13,2019-08-13 10:01:15,2.007s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Login/Account icon""))",Safari 12,,2019-08-13 10:01:15,2019-08-13 10:01:15,0.404s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH/Decrease quantity - cart flyout,Safari 12,,2019-08-13 10:01:15,2019-08-13 10:01:24,9.318s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 10:01:15,2019-08-13 10:01:20,4.335s,PASSED
+delay(2),Safari 12,,2019-08-13 10:01:20,2019-08-13 10:01:22,2.002s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Mega menu/SHOES""))",Safari 12,,2019-08-13 10:01:22,2019-08-13 10:01:22,0.145s,PASSED
+delay(2),Safari 12,,2019-08-13 10:01:22,2019-08-13 10:01:24,2.009s,PASSED
+"click(findTestObject(""CR-DESKTOP/Mega menu/shoes - sneakers""))",Safari 12,,2019-08-13 10:01:24,2019-08-13 10:01:24,0.716s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH/Adding products - Search flyout,Safari 12,,2019-08-13 10:01:24,2019-08-13 10:01:33,8.934s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 10:01:25,2019-08-13 10:01:31,6.363s,PASSED
+delay(2),Safari 12,,2019-08-13 10:01:31,2019-08-13 10:01:33,2.002s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Search flyout""))",Safari 12,,2019-08-13 10:01:33,2019-08-13 10:01:33,0.457s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH/Adding products - home page,Safari 12,,2019-08-13 10:01:33,2019-08-13 10:02:06,32.671s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 10:01:33,2019-08-13 10:02:06,32.607s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH/Price comparison - cart flyout,Safari 12,,2019-08-13 10:02:06,2019-08-13 10:02:58,52.305s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 10:02:06,2019-08-13 10:02:58,52.152s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH/Different products,Safari 12,,2019-08-13 10:02:58,2019-08-13 10:03:30,31.893s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Safari 12,,2019-08-13 10:02:58,2019-08-13 10:03:30,31.819s,FAILED

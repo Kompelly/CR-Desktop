@@ -1,0 +1,594 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+suite-firefox,Firefox 68.0,,2019-08-13 09:47:37,2019-08-13 10:14:28,26m - 50.900s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH - SPANISH/Increase quantity - cart page,Firefox 68.0,,2019-08-13 09:47:38,2019-08-13 09:49:19,1m - 40.923s,FAILED
+"callTestCase(findTestCase(""CALL - LANGUAGE TOGGLER""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 09:47:39,2019-08-13 09:48:01,21.987s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:48:01,2019-08-13 09:48:03,2.015s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/SHOES""))",Firefox 68.0,,2019-08-13 09:48:03,2019-08-13 09:48:03,0.181s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:48:03,2019-08-13 09:48:05,2.008s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/shoes - tenis""))",Firefox 68.0,,2019-08-13 09:48:05,2019-08-13 09:48:06,1.491s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:48:06,2019-08-13 09:48:08,2.006s,PASSED
+"click(findTestObject(""CR-DESKTOP/Collection page/product 3""))",Firefox 68.0,,2019-08-13 09:48:08,2019-08-13 09:48:10,1.795s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:48:10,2019-08-13 09:48:12,2.011s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/product page/verde neon""))",Firefox 68.0,,2019-08-13 09:48:12,2019-08-13 09:48:13,0.300s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:48:13,2019-08-13 09:48:15,2.003s,PASSED
+"click(findTestObject(""CR-DESKTOP/product page/Size -6""))",Firefox 68.0,,2019-08-13 09:48:15,2019-08-13 09:48:15,0.380s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:48:15,2019-08-13 09:48:17,2.006s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/product page/Add to bag""))",Firefox 68.0,,2019-08-13 09:48:17,2019-08-13 09:48:17,0.269s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:48:17,2019-08-13 09:48:19,2.008s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/Checkout""))",Firefox 68.0,,2019-08-13 09:48:19,2019-08-13 09:48:25,5.718s,PASSED
+delay(3),Firefox 68.0,,2019-08-13 09:48:25,2019-08-13 09:48:28,3.003s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Customer info page/cart page link""))",Firefox 68.0,,2019-08-13 09:48:28,2019-08-13 09:48:29,1.054s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:48:29,2019-08-13 09:48:31,2.002s,PASSED
+"a = getText(findTestObject(""CR-DESKTOP/Cart page/Get price - subtotal- cart page""))",Firefox 68.0,,2019-08-13 09:48:31,2019-08-13 09:48:31,0.065s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:48:31,2019-08-13 09:48:33,2.006s,PASSED
+"comment(""a="" + a)",Firefox 68.0,,2019-08-13 09:48:33,2019-08-13 09:48:33,0.006s,PASSED
+a1 = a.substring(1),Firefox 68.0,,2019-08-13 09:48:33,2019-08-13 09:48:33,0.002s,PASSED
+"comment(""a1="" + a1)",Firefox 68.0,,2019-08-13 09:48:33,2019-08-13 09:48:33,0.001s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:48:33,2019-08-13 09:48:35,2.009s,PASSED
+"setText(findTestObject(""CR-DESKTOP - SPANISH/Cart page/input update qunatity""), ""4"")",Firefox 68.0,,2019-08-13 09:48:35,2019-08-13 09:48:35,0.077s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:48:35,2019-08-13 09:48:37,2.005s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart page/td_Quantity""))",Firefox 68.0,,2019-08-13 09:48:37,2019-08-13 09:48:37,0.244s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:48:37,2019-08-13 09:48:39,2.005s,PASSED
+"setText(findTestObject(""CR-DESKTOP - SPANISH/Cart page/input update qunatity""), ""6"")",Firefox 68.0,,2019-08-13 09:48:39,2019-08-13 09:48:39,0.037s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:48:39,2019-08-13 09:48:41,2.003s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart page/td_Quantity""))",Firefox 68.0,,2019-08-13 09:48:41,2019-08-13 09:48:42,0.239s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:48:42,2019-08-13 09:48:44,2.005s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart page/Update cart""))",Firefox 68.0,,2019-08-13 09:48:44,2019-08-13 09:48:45,1.033s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:48:45,2019-08-13 09:48:47,2.007s,PASSED
+"b = getText(findTestObject(""CR-DESKTOP - SPANISH/Cart page/Get price - subtotal- cart page""))",Firefox 68.0,,2019-08-13 09:48:47,2019-08-13 09:48:47,0.024s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:48:47,2019-08-13 09:48:49,2.009s,PASSED
+"comment(""b="" + b)",Firefox 68.0,,2019-08-13 09:48:49,2019-08-13 09:48:49,0.002s,PASSED
+b1 = b.substring(1),Firefox 68.0,,2019-08-13 09:48:49,2019-08-13 09:48:49,0.001s,PASSED
+"comment(""b1="" + b1)",Firefox 68.0,,2019-08-13 09:48:49,2019-08-13 09:48:49,0.002s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:48:49,2019-08-13 09:48:51,2.003s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:48:51,2019-08-13 09:48:53,2.006s,PASSED
+p1 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 68.0,,2019-08-13 09:48:53,2019-08-13 09:48:53,0.000s,PASSED
+p2 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 68.0,,2019-08-13 09:48:53,2019-08-13 09:48:53,0.001s,PASSED
+try,Firefox 68.0,,2019-08-13 09:48:53,2019-08-13 09:48:53,0.007s,PASSED
+try,Firefox 68.0,,2019-08-13 09:48:53,2019-08-13 09:48:53,0.004s,PASSED
+"flag = verifyNotEqual(p1, p2)",Firefox 68.0,,2019-08-13 09:48:53,2019-08-13 09:48:53,0.007s,PASSED
+if (flag == true),Firefox 68.0,,2019-08-13 09:48:53,2019-08-13 09:48:53,0.002s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart page/Check out - cart page""))",Firefox 68.0,,2019-08-13 09:48:53,2019-08-13 09:48:57,4.357s,PASSED
+"callTestCase(findTestCase(""CALL - CUTOMER INFO PAGE""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 09:48:57,2019-08-13 09:49:07,10.051s,PASSED
+"callTestCase(findTestCase(""CALL- SHIPPING TO PAYMENT""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 09:49:07,2019-08-13 09:49:19,11.406s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH - SPANISH/Increase quantity - cart flyout,Firefox 68.0,,2019-08-13 09:49:19,2019-08-13 09:50:31,1m - 12.691s,FAILED
+"callTestCase(findTestCase(""CALL - LANGUAGE TOGGLER""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 09:49:19,2019-08-13 09:49:32,13.148s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:49:32,2019-08-13 09:49:34,2.016s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/SHOES""))",Firefox 68.0,,2019-08-13 09:49:34,2019-08-13 09:49:34,0.130s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:49:34,2019-08-13 09:49:36,2.008s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/shoes - tenis""))",Firefox 68.0,,2019-08-13 09:49:36,2019-08-13 09:49:38,1.295s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:49:38,2019-08-13 09:49:40,2.004s,PASSED
+"click(findTestObject(""CR-DESKTOP/Collection page/product 3""))",Firefox 68.0,,2019-08-13 09:49:40,2019-08-13 09:49:42,2.130s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:49:42,2019-08-13 09:49:44,2.008s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/product page/verde neon""))",Firefox 68.0,,2019-08-13 09:49:44,2019-08-13 09:49:44,0.297s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:49:44,2019-08-13 09:49:46,2.005s,PASSED
+"click(findTestObject(""CR-DESKTOP/product page/Size -6""))",Firefox 68.0,,2019-08-13 09:49:46,2019-08-13 09:49:46,0.276s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:49:46,2019-08-13 09:49:48,2.005s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/product page/Add to bag""))",Firefox 68.0,,2019-08-13 09:49:48,2019-08-13 09:49:49,0.255s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:49:49,2019-08-13 09:49:51,2.006s,PASSED
+"a = getText(findTestObject(""CR-DESKTOP/Cart flyout/Get price - subtotal""))",Firefox 68.0,,2019-08-13 09:49:51,2019-08-13 09:49:51,0.033s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:49:51,2019-08-13 09:49:53,2.002s,PASSED
+"comment(""a="" + a)",Firefox 68.0,,2019-08-13 09:49:53,2019-08-13 09:49:53,0.001s,PASSED
+a1 = a.substring(1),Firefox 68.0,,2019-08-13 09:49:53,2019-08-13 09:49:53,0.001s,PASSED
+"comment(""a1="" + a1)",Firefox 68.0,,2019-08-13 09:49:53,2019-08-13 09:49:53,0.001s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:49:53,2019-08-13 09:49:55,2.002s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/cart quantity increase - cart flyout""))",Firefox 68.0,,2019-08-13 09:49:55,2019-08-13 09:49:55,0.232s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:49:55,2019-08-13 09:49:57,2.006s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/cart quantity increase - cart flyout""))",Firefox 68.0,,2019-08-13 09:49:57,2019-08-13 09:49:57,0.228s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:49:57,2019-08-13 09:49:59,2.002s,PASSED
+"setText(findTestObject(""CR-DESKTOP/Cart flyout/Input update - cart flyout""), ""4"")",Firefox 68.0,,2019-08-13 09:49:59,2019-08-13 09:50:00,0.554s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:50:00,2019-08-13 09:50:02,2.004s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/click outside""))",Firefox 68.0,,2019-08-13 09:50:02,2019-08-13 09:50:02,0.235s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:50:02,2019-08-13 09:50:04,2.002s,PASSED
+"b = getText(findTestObject(""CR-DESKTOP/Cart flyout/Get price - subtotal""))",Firefox 68.0,,2019-08-13 09:50:04,2019-08-13 09:50:04,0.023s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:50:04,2019-08-13 09:50:06,2.004s,PASSED
+"comment(""b="" + b)",Firefox 68.0,,2019-08-13 09:50:06,2019-08-13 09:50:06,0.000s,PASSED
+b1 = b.substring(1),Firefox 68.0,,2019-08-13 09:50:06,2019-08-13 09:50:06,0.000s,PASSED
+"comment(""b1="" + b1)",Firefox 68.0,,2019-08-13 09:50:06,2019-08-13 09:50:06,0.001s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:50:06,2019-08-13 09:50:08,2.005s,PASSED
+p1 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 68.0,,2019-08-13 09:50:08,2019-08-13 09:50:08,0.000s,PASSED
+p2 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 68.0,,2019-08-13 09:50:08,2019-08-13 09:50:08,0.000s,PASSED
+try,Firefox 68.0,,2019-08-13 09:50:08,2019-08-13 09:50:08,0.005s,PASSED
+try,Firefox 68.0,,2019-08-13 09:50:08,2019-08-13 09:50:08,0.003s,PASSED
+"flag = verifyNotEqual(p1, p2)",Firefox 68.0,,2019-08-13 09:50:08,2019-08-13 09:50:08,0.002s,PASSED
+if (flag == true),Firefox 68.0,,2019-08-13 09:50:08,2019-08-13 09:50:08,0.001s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:50:08,2019-08-13 09:50:10,2.005s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/Checkout""))",Firefox 68.0,,2019-08-13 09:50:10,2019-08-13 09:50:14,4.050s,PASSED
+"callTestCase(findTestCase(""CALL - CUTOMER INFO PAGE""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 09:50:14,2019-08-13 09:50:23,9.059s,PASSED
+"callTestCase(findTestCase(""CALL- SHIPPING TO PAYMENT""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 09:50:23,2019-08-13 09:50:31,8.363s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH - SPANISH/Quick add,Firefox 68.0,,2019-08-13 09:50:31,2019-08-13 09:51:31,59.483s,FAILED
+"callTestCase(findTestCase(""CALL - LANGUAGE TOGGLER""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 09:50:31,2019-08-13 09:50:48,17.010s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:50:48,2019-08-13 09:50:50,2.003s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/SHOES""))",Firefox 68.0,,2019-08-13 09:50:50,2019-08-13 09:50:51,0.258s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:50:51,2019-08-13 09:50:53,2.003s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/shoes - tenis""))",Firefox 68.0,,2019-08-13 09:50:53,2019-08-13 09:50:56,3.101s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:50:56,2019-08-13 09:50:58,2.005s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Collection page/product 3""))",Firefox 68.0,,2019-08-13 09:50:58,2019-08-13 09:50:58,0.149s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:50:58,2019-08-13 09:51:00,2.003s,PASSED
+"click(findTestObject(""CR-DESKTOP/product page/Quick add""))",Firefox 68.0,,2019-08-13 09:51:00,2019-08-13 09:51:00,0.273s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:51:00,2019-08-13 09:51:02,2.006s,PASSED
+"click(findTestObject(""CR-DESKTOP/product page/Quick add - size - 6""))",Firefox 68.0,,2019-08-13 09:51:02,2019-08-13 09:51:03,0.326s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:51:03,2019-08-13 09:51:05,2.003s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/Checkout""))",Firefox 68.0,,2019-08-13 09:51:05,2019-08-13 09:51:10,5.028s,PASSED
+"callTestCase(findTestCase(""CALL - CUTOMER INFO PAGE""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 09:51:10,2019-08-13 09:51:19,9.107s,PASSED
+"callTestCase(findTestCase(""CALL- SHIPPING TO PAYMENT""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 09:51:19,2019-08-13 09:51:31,12.067s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH - SPANISH/Price comparison - cart page,Firefox 68.0,,2019-08-13 09:51:31,2019-08-13 09:52:39,1m - 8.611s,FAILED
+"callTestCase(findTestCase(""CALL - LANGUAGE TOGGLER""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 09:51:31,2019-08-13 09:51:48,16.463s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:51:48,2019-08-13 09:51:50,2.002s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/SHOES""))",Firefox 68.0,,2019-08-13 09:51:50,2019-08-13 09:51:50,0.145s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:51:50,2019-08-13 09:51:52,2.012s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/shoes - tenis""))",Firefox 68.0,,2019-08-13 09:51:52,2019-08-13 09:51:53,0.877s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:51:53,2019-08-13 09:51:55,2.005s,PASSED
+"click(findTestObject(""CR-DESKTOP/Collection page/product 3""))",Firefox 68.0,,2019-08-13 09:51:55,2019-08-13 09:51:56,1.047s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:51:56,2019-08-13 09:51:58,2.005s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/product page/verde neon""))",Firefox 68.0,,2019-08-13 09:51:58,2019-08-13 09:51:58,0.295s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:51:58,2019-08-13 09:52:00,2.004s,PASSED
+"click(findTestObject(""CR-DESKTOP/product page/Size -6""))",Firefox 68.0,,2019-08-13 09:52:00,2019-08-13 09:52:00,0.277s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:52:00,2019-08-13 09:52:02,2.003s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/product page/Add to bag""))",Firefox 68.0,,2019-08-13 09:52:02,2019-08-13 09:52:03,0.252s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:52:03,2019-08-13 09:52:05,2.005s,PASSED
+"setText(findTestObject(""CR-DESKTOP - SPANISH/Cart flyout/Input update - cart flyout""), ""8"")",Firefox 68.0,,2019-08-13 09:52:05,2019-08-13 09:52:05,0.553s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:52:05,2019-08-13 09:52:07,2.005s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/cart collpase""))",Firefox 68.0,,2019-08-13 09:52:07,2019-08-13 09:52:07,0.237s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:52:07,2019-08-13 09:52:09,2.027s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/a_Jeans""))",Firefox 68.0,,2019-08-13 09:52:09,2019-08-13 09:52:10,0.162s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:52:10,2019-08-13 09:52:12,2.002s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/Jeans- Boy friend jeans""))",Firefox 68.0,,2019-08-13 09:52:12,2019-08-13 09:52:12,0.581s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:52:12,2019-08-13 09:52:14,2.006s,PASSED
+"click(findTestObject(""CR-DESKTOP/Collection page/Product 2""))",Firefox 68.0,,2019-08-13 09:52:14,2019-08-13 09:52:15,0.940s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:52:15,2019-08-13 09:52:17,2.002s,PASSED
+"click(findTestObject(""CR-DESKTOP/product page/size -18""))",Firefox 68.0,,2019-08-13 09:52:17,2019-08-13 09:52:17,0.270s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:52:17,2019-08-13 09:52:19,2.004s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/product page/Add to bag""))",Firefox 68.0,,2019-08-13 09:52:19,2019-08-13 09:52:20,0.234s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:52:20,2019-08-13 09:52:22,2.004s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/Checkout""))",Firefox 68.0,,2019-08-13 09:52:22,2019-08-13 09:52:26,3.891s,PASSED
+delay(3),Firefox 68.0,,2019-08-13 09:52:26,2019-08-13 09:52:29,3.004s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Customer info page/cart page link""))",Firefox 68.0,,2019-08-13 09:52:29,2019-08-13 09:52:29,0.759s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:52:29,2019-08-13 09:52:31,2.006s,PASSED
+"a = getText(findTestObject(""CR-DESKTOP/Cart page/Get price - prod 1-cart page""))",Firefox 68.0,,2019-08-13 09:52:31,2019-08-13 09:52:31,0.026s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:52:31,2019-08-13 09:52:33,2.004s,PASSED
+"comment(""a="" + a)",Firefox 68.0,,2019-08-13 09:52:33,2019-08-13 09:52:33,0.001s,PASSED
+a1 = a.substring(1),Firefox 68.0,,2019-08-13 09:52:33,2019-08-13 09:52:33,0.001s,PASSED
+"comment(""a1="" + a1)",Firefox 68.0,,2019-08-13 09:52:33,2019-08-13 09:52:33,0.001s,PASSED
+p1 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 68.0,,2019-08-13 09:52:33,2019-08-13 09:52:33,0.000s,PASSED
+p2 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 68.0,,2019-08-13 09:52:33,2019-08-13 09:52:33,0.001s,PASSED
+p3 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 68.0,,2019-08-13 09:52:33,2019-08-13 09:52:33,0.000s,PASSED
+try,Firefox 68.0,,2019-08-13 09:52:33,2019-08-13 09:52:33,0.005s,PASSED
+"b = getText(findTestObject(""CR-DESKTOP/Cart page/Get price - prod 2 - cart page""))",Firefox 68.0,,2019-08-13 09:52:33,2019-08-13 09:52:33,0.022s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:52:33,2019-08-13 09:52:35,2.005s,PASSED
+"comment(""b="" + b)",Firefox 68.0,,2019-08-13 09:52:35,2019-08-13 09:52:35,0.002s,PASSED
+b1 = b.substring(1),Firefox 68.0,,2019-08-13 09:52:35,2019-08-13 09:52:35,0.000s,PASSED
+"comment(""b1="" + b1)",Firefox 68.0,,2019-08-13 09:52:35,2019-08-13 09:52:35,0.000s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:52:35,2019-08-13 09:52:37,2.004s,PASSED
+try,Firefox 68.0,,2019-08-13 09:52:37,2019-08-13 09:52:37,0.005s,PASSED
+total = p1 + p2,Firefox 68.0,,2019-08-13 09:52:37,2019-08-13 09:52:37,0.000s,PASSED
+"comment(""total="" + total)",Firefox 68.0,,2019-08-13 09:52:37,2019-08-13 09:52:37,0.001s,PASSED
+"c = getText(findTestObject(""CR-DESKTOP/Cart page/Get price - subtotal- cart page""))",Firefox 68.0,,2019-08-13 09:52:37,2019-08-13 09:52:37,0.028s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:52:37,2019-08-13 09:52:39,2.006s,PASSED
+"comment(""c="" + c)",Firefox 68.0,,2019-08-13 09:52:39,2019-08-13 09:52:39,0.001s,PASSED
+c1 = c.substring(1),Firefox 68.0,,2019-08-13 09:52:39,2019-08-13 09:52:39,0.001s,PASSED
+"comment(""c1="" + c1)",Firefox 68.0,,2019-08-13 09:52:39,2019-08-13 09:52:39,0.002s,PASSED
+try,Firefox 68.0,,2019-08-13 09:52:39,2019-08-13 09:52:39,0.007s,PASSED
+"verifyEqual(p3, total)",Firefox 68.0,,2019-08-13 09:52:39,2019-08-13 09:52:39,0.014s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH - SPANISH/Decrease quantity - cart page,Firefox 68.0,,2019-08-13 09:52:39,2019-08-13 09:54:19,1m - 39.077s,FAILED
+"callTestCase(findTestCase(""CALL - LANGUAGE TOGGLER""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 09:52:40,2019-08-13 09:52:56,16.312s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:52:56,2019-08-13 09:52:58,2.005s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/SHOES""))",Firefox 68.0,,2019-08-13 09:52:58,2019-08-13 09:52:58,0.127s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:52:58,2019-08-13 09:53:00,2.001s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/shoes - tenis""))",Firefox 68.0,,2019-08-13 09:53:00,2019-08-13 09:53:01,0.776s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:53:01,2019-08-13 09:53:03,2.009s,PASSED
+"click(findTestObject(""CR-DESKTOP/Collection page/product 3""))",Firefox 68.0,,2019-08-13 09:53:03,2019-08-13 09:53:05,1.632s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:53:05,2019-08-13 09:53:07,2.006s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/product page/verde neon""))",Firefox 68.0,,2019-08-13 09:53:07,2019-08-13 09:53:07,0.317s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:53:07,2019-08-13 09:53:09,2.003s,PASSED
+"click(findTestObject(""CR-DESKTOP/product page/Size -6""))",Firefox 68.0,,2019-08-13 09:53:09,2019-08-13 09:53:09,0.277s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:53:09,2019-08-13 09:53:11,2.005s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/product page/Add to bag""))",Firefox 68.0,,2019-08-13 09:53:11,2019-08-13 09:53:12,0.266s,PASSED
+delay(3),Firefox 68.0,,2019-08-13 09:53:12,2019-08-13 09:53:15,3.007s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/cart quantity increase - cart flyout""))",Firefox 68.0,,2019-08-13 09:53:15,2019-08-13 09:53:15,0.246s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:53:15,2019-08-13 09:53:17,2.003s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/cart quantity increase - cart flyout""))",Firefox 68.0,,2019-08-13 09:53:17,2019-08-13 09:53:17,0.240s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:53:17,2019-08-13 09:53:19,2.005s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/cart quantity increase - cart flyout""))",Firefox 68.0,,2019-08-13 09:53:19,2019-08-13 09:53:19,0.251s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:53:19,2019-08-13 09:53:21,2.002s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/cart quantity increase - cart flyout""))",Firefox 68.0,,2019-08-13 09:53:21,2019-08-13 09:53:22,0.723s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:53:22,2019-08-13 09:53:24,2.004s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/Checkout""))",Firefox 68.0,,2019-08-13 09:53:24,2019-08-13 09:53:28,3.963s,PASSED
+delay(3),Firefox 68.0,,2019-08-13 09:53:28,2019-08-13 09:53:31,3.003s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Customer info page/cart page link""))",Firefox 68.0,,2019-08-13 09:53:31,2019-08-13 09:53:32,0.616s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:53:32,2019-08-13 09:53:34,2.003s,PASSED
+"a = getText(findTestObject(""CR-DESKTOP/Cart page/Get price - subtotal- cart page""))",Firefox 68.0,,2019-08-13 09:53:34,2019-08-13 09:53:34,0.027s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:53:34,2019-08-13 09:53:36,2.004s,PASSED
+"comment(""a="" + a)",Firefox 68.0,,2019-08-13 09:53:36,2019-08-13 09:53:36,0.001s,PASSED
+a1 = a.substring(1),Firefox 68.0,,2019-08-13 09:53:36,2019-08-13 09:53:36,0.000s,PASSED
+"comment(""a1="" + a1)",Firefox 68.0,,2019-08-13 09:53:36,2019-08-13 09:53:36,0.001s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:53:36,2019-08-13 09:53:38,2.004s,PASSED
+"setText(findTestObject(""CR-DESKTOP - SPANISH/Cart page/input update qunatity""), ""4"")",Firefox 68.0,,2019-08-13 09:53:38,2019-08-13 09:53:38,0.048s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:53:38,2019-08-13 09:53:40,2.004s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart page/td_Quantity""))",Firefox 68.0,,2019-08-13 09:53:40,2019-08-13 09:53:40,0.233s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:53:40,2019-08-13 09:53:42,2.004s,PASSED
+"setText(findTestObject(""CR-DESKTOP - SPANISH/Cart page/input update qunatity""), ""2"")",Firefox 68.0,,2019-08-13 09:53:42,2019-08-13 09:53:42,0.037s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:53:42,2019-08-13 09:53:44,2.006s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart page/td_Quantity""))",Firefox 68.0,,2019-08-13 09:53:44,2019-08-13 09:53:44,0.222s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:53:44,2019-08-13 09:53:46,2.005s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart page/Update cart""))",Firefox 68.0,,2019-08-13 09:53:46,2019-08-13 09:53:47,1.068s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:53:47,2019-08-13 09:53:49,2.004s,PASSED
+"b = getText(findTestObject(""CR-DESKTOP - SPANISH/Cart page/Get price - subtotal- cart page""))",Firefox 68.0,,2019-08-13 09:53:49,2019-08-13 09:53:49,0.021s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:53:49,2019-08-13 09:53:51,2.005s,PASSED
+"comment(""b="" + b)",Firefox 68.0,,2019-08-13 09:53:51,2019-08-13 09:53:51,0.001s,PASSED
+b1 = b.substring(1),Firefox 68.0,,2019-08-13 09:53:51,2019-08-13 09:53:51,0.001s,PASSED
+"comment(""b1="" + b1)",Firefox 68.0,,2019-08-13 09:53:51,2019-08-13 09:53:51,0.001s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:53:51,2019-08-13 09:53:53,2.005s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:53:53,2019-08-13 09:53:55,2.004s,PASSED
+p1 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 68.0,,2019-08-13 09:53:55,2019-08-13 09:53:55,0.000s,PASSED
+p2 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 68.0,,2019-08-13 09:53:55,2019-08-13 09:53:55,0.000s,PASSED
+try,Firefox 68.0,,2019-08-13 09:53:55,2019-08-13 09:53:55,0.004s,PASSED
+try,Firefox 68.0,,2019-08-13 09:53:55,2019-08-13 09:53:55,0.002s,PASSED
+"flag = verifyNotEqual(p1, p2)",Firefox 68.0,,2019-08-13 09:53:55,2019-08-13 09:53:55,0.001s,PASSED
+if (flag == true),Firefox 68.0,,2019-08-13 09:53:55,2019-08-13 09:53:55,0.001s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart page/Check out - cart page""))",Firefox 68.0,,2019-08-13 09:53:55,2019-08-13 09:53:59,3.529s,PASSED
+"callTestCase(findTestCase(""CALL - CUTOMER INFO PAGE""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 09:53:59,2019-08-13 09:54:09,9.628s,PASSED
+"callTestCase(findTestCase(""CALL- SHIPPING TO PAYMENT""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 09:54:09,2019-08-13 09:54:19,9.877s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH - SPANISH/Login and Logout,Firefox 68.0,,2019-08-13 09:54:19,2019-08-13 09:55:30,1m - 11.535s,FAILED
+"callTestCase(findTestCase(""CALL - LANGUAGE TOGGLER""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 09:54:19,2019-08-13 09:54:30,11.714s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:54:30,2019-08-13 09:54:32,2.004s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Home page/Login/Account icon""))",Firefox 68.0,,2019-08-13 09:54:32,2019-08-13 09:54:34,1.647s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:54:34,2019-08-13 09:54:36,2.002s,PASSED
+"setText(findTestObject(""CR-DESKTOP/Home page/Login/Email""), ""suman.kompelly+1@diffagency.com"")",Firefox 68.0,,2019-08-13 09:54:36,2019-08-13 09:54:36,0.059s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:54:36,2019-08-13 09:54:38,2.009s,PASSED
+"setEncryptedText(findTestObject(""CR-DESKTOP/Home page/Login/Password""), ""5xx1bkCcAlw="")",Firefox 68.0,,2019-08-13 09:54:38,2019-08-13 09:54:38,0.129s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:54:38,2019-08-13 09:54:40,2.011s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Login/Login button""))",Firefox 68.0,,2019-08-13 09:54:40,2019-08-13 09:54:41,0.292s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:54:41,2019-08-13 09:54:43,2.008s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Home page/Login/a_View Addresses (0)""))",Firefox 68.0,,2019-08-13 09:54:43,2019-08-13 09:54:44,1.569s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:54:44,2019-08-13 09:54:46,2.004s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Login/Add new address/button_Add a New Address""))",Firefox 68.0,,2019-08-13 09:54:46,2019-08-13 09:54:46,0.004s,NOT_RUN
+"setText(findTestObject(""CR-DESKTOP/Home page/Login/Add new address/input_First Name_addressfirst_""), ""xxx"")",Firefox 68.0,,2019-08-13 09:54:46,2019-08-13 09:54:46,0.002s,NOT_RUN
+"setText(findTestObject(""CR-DESKTOP/Home page/Login/Add new address/input_Last Name_addresslast_na""), ""yyy"")",Firefox 68.0,,2019-08-13 09:54:46,2019-08-13 09:54:46,0.001s,NOT_RUN
+"setText(findTestObject(""CR-DESKTOP/Home page/Login/Add new address/input_Company_addresscompany""), ""zzzz"")",Firefox 68.0,,2019-08-13 09:54:46,2019-08-13 09:54:46,0.001s,NOT_RUN
+"setText(findTestObject(""CR-DESKTOP/Home page/Login/Add new address/input_Address 1_addressaddress""), ""1435 saint alxendre"")",Firefox 68.0,,2019-08-13 09:54:46,2019-08-13 09:54:46,0.001s,NOT_RUN
+"setText(findTestObject(""CR-DESKTOP/Home page/Login/Add new address/input_Address 2_addressaddress""), ""399"")",Firefox 68.0,,2019-08-13 09:54:46,2019-08-13 09:54:46,0.000s,NOT_RUN
+"setText(findTestObject(""CR-DESKTOP/Home page/Login/Add new address/input_City_addresscity""), ""montreal"")",Firefox 68.0,,2019-08-13 09:54:46,2019-08-13 09:54:46,0.000s,NOT_RUN
+"selectOptionByValue(findTestObject(""CR-DESKTOP/Home page/Login/Add new address/select_AlabamaAlaskaAmerican S""), ""New Jersey"", true)",Firefox 68.0,,2019-08-13 09:54:46,2019-08-13 09:54:46,0.000s,NOT_RUN
+"setText(findTestObject(""CR-DESKTOP/Home page/Login/Add new address/input_PostalZip Code_addresszi""), ""07057"")",Firefox 68.0,,2019-08-13 09:54:46,2019-08-13 09:54:46,0.001s,NOT_RUN
+"setText(findTestObject(""CR-DESKTOP/Home page/Login/Add new address/input_Phone_addressphone""), ""5144493883"")",Firefox 68.0,,2019-08-13 09:54:46,2019-08-13 09:54:46,0.000s,NOT_RUN
+"click(findTestObject(""CR-DESKTOP/Home page/Login/Add new address/input_Set as default address_b""))",Firefox 68.0,,2019-08-13 09:54:46,2019-08-13 09:54:46,0.001s,NOT_RUN
+delay(2),Firefox 68.0,,2019-08-13 09:54:46,2019-08-13 09:54:46,0.001s,NOT_RUN
+"click(findTestObject(""CR-DESKTOP/Home page/Login/Delete button""))",Firefox 68.0,,2019-08-13 09:54:46,2019-08-13 09:54:46,0.001s,NOT_RUN
+delay(2),Firefox 68.0,,2019-08-13 09:54:46,2019-08-13 09:54:48,2.010s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Home page/Login/a_Return to Account Details""))",Firefox 68.0,,2019-08-13 09:54:48,2019-08-13 09:54:49,1.251s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:54:49,2019-08-13 09:54:51,2.009s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Home page/Login/a_Wishlist""))",Firefox 68.0,,2019-08-13 09:54:51,2019-08-13 09:54:55,3.544s,PASSED
+back(),Firefox 68.0,,2019-08-13 09:54:55,2019-08-13 09:54:57,2.089s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:54:57,2019-08-13 09:54:59,2.010s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Home page/Login/a_Logout""))",Firefox 68.0,,2019-08-13 09:54:59,2019-08-13 09:55:30,30.985s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH - SPANISH/Decrease quantity - cart flyout,Firefox 68.0,,2019-08-13 09:55:30,2019-08-13 09:56:50,1m - 20.018s,FAILED
+"callTestCase(findTestCase(""CALL - LANGUAGE TOGGLER""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 09:55:30,2019-08-13 09:55:45,14.453s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:55:45,2019-08-13 09:55:47,2.007s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/SHOES""))",Firefox 68.0,,2019-08-13 09:55:47,2019-08-13 09:55:47,0.143s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:55:47,2019-08-13 09:55:49,2.005s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/shoes - tenis""))",Firefox 68.0,,2019-08-13 09:55:49,2019-08-13 09:55:50,0.882s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:55:50,2019-08-13 09:55:52,2.010s,PASSED
+"click(findTestObject(""CR-DESKTOP/Collection page/product 3""))",Firefox 68.0,,2019-08-13 09:55:52,2019-08-13 09:55:53,1.745s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:55:53,2019-08-13 09:55:55,2.011s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/product page/verde neon""))",Firefox 68.0,,2019-08-13 09:55:55,2019-08-13 09:55:56,0.341s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:55:56,2019-08-13 09:55:58,2.009s,PASSED
+"click(findTestObject(""CR-DESKTOP/product page/Size -6""))",Firefox 68.0,,2019-08-13 09:55:58,2019-08-13 09:55:58,0.307s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:55:58,2019-08-13 09:56:00,2.006s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/product page/Add to bag""))",Firefox 68.0,,2019-08-13 09:56:00,2019-08-13 09:56:00,0.323s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:56:00,2019-08-13 09:56:02,2.011s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/cart quantity increase - cart flyout""))",Firefox 68.0,,2019-08-13 09:56:02,2019-08-13 09:56:03,0.237s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:56:03,2019-08-13 09:56:05,2.003s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/cart quantity increase - cart flyout""))",Firefox 68.0,,2019-08-13 09:56:05,2019-08-13 09:56:05,0.273s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:56:05,2019-08-13 09:56:07,2.008s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/cart quantity increase - cart flyout""))",Firefox 68.0,,2019-08-13 09:56:07,2019-08-13 09:56:07,0.243s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:56:07,2019-08-13 09:56:09,2.010s,PASSED
+"a = getText(findTestObject(""CR-DESKTOP/Cart flyout/Get price - subtotal""))",Firefox 68.0,,2019-08-13 09:56:09,2019-08-13 09:56:09,0.035s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:56:09,2019-08-13 09:56:11,2.006s,PASSED
+"comment(""a="" + a)",Firefox 68.0,,2019-08-13 09:56:11,2019-08-13 09:56:11,0.002s,PASSED
+a1 = a.substring(1),Firefox 68.0,,2019-08-13 09:56:11,2019-08-13 09:56:11,0.000s,PASSED
+"comment(""a1="" + a1)",Firefox 68.0,,2019-08-13 09:56:11,2019-08-13 09:56:11,0.001s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:56:11,2019-08-13 09:56:13,2.008s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/cart quantity decrease - cart flyout""))",Firefox 68.0,,2019-08-13 09:56:13,2019-08-13 09:56:14,0.242s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:56:14,2019-08-13 09:56:16,2.007s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/cart quantity decrease - cart flyout""))",Firefox 68.0,,2019-08-13 09:56:16,2019-08-13 09:56:16,0.236s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:56:16,2019-08-13 09:56:18,2.017s,PASSED
+"setText(findTestObject(""CR-DESKTOP/Cart flyout/Input update - cart flyout""), ""1"")",Firefox 68.0,,2019-08-13 09:56:18,2019-08-13 09:56:18,0.548s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:56:18,2019-08-13 09:56:20,2.010s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/click outside""))",Firefox 68.0,,2019-08-13 09:56:20,2019-08-13 09:56:21,0.239s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:56:21,2019-08-13 09:56:23,2.008s,PASSED
+"b = getText(findTestObject(""CR-DESKTOP/Cart flyout/Get price - subtotal""))",Firefox 68.0,,2019-08-13 09:56:23,2019-08-13 09:56:23,0.017s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:56:23,2019-08-13 09:56:25,2.010s,PASSED
+"comment(""b="" + b)",Firefox 68.0,,2019-08-13 09:56:25,2019-08-13 09:56:25,0.000s,PASSED
+b1 = b.substring(1),Firefox 68.0,,2019-08-13 09:56:25,2019-08-13 09:56:25,0.000s,PASSED
+"comment(""b1="" + b1)",Firefox 68.0,,2019-08-13 09:56:25,2019-08-13 09:56:25,0.000s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:56:25,2019-08-13 09:56:27,2.005s,PASSED
+p1 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 68.0,,2019-08-13 09:56:27,2019-08-13 09:56:27,0.000s,PASSED
+p2 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 68.0,,2019-08-13 09:56:27,2019-08-13 09:56:27,0.000s,PASSED
+try,Firefox 68.0,,2019-08-13 09:56:27,2019-08-13 09:56:27,0.004s,PASSED
+try,Firefox 68.0,,2019-08-13 09:56:27,2019-08-13 09:56:27,0.002s,PASSED
+"flag = verifyNotEqual(p1, p2)",Firefox 68.0,,2019-08-13 09:56:27,2019-08-13 09:56:27,0.002s,PASSED
+if (flag == true),Firefox 68.0,,2019-08-13 09:56:27,2019-08-13 09:56:27,0.002s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:56:27,2019-08-13 09:56:29,2.009s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/Checkout""))",Firefox 68.0,,2019-08-13 09:56:29,2019-08-13 09:56:33,4.108s,PASSED
+"callTestCase(findTestCase(""CALL - CUTOMER INFO PAGE""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 09:56:33,2019-08-13 09:56:42,9.160s,PASSED
+"callTestCase(findTestCase(""CALL- SHIPPING TO PAYMENT""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 09:56:42,2019-08-13 09:56:50,8.147s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH - SPANISH/Adding products - Search flyout,Firefox 68.0,,2019-08-13 09:56:50,2019-08-13 09:57:38,48.373s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 09:56:50,2019-08-13 09:57:05,14.630s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:57:05,2019-08-13 09:57:07,2.010s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Home page/Search flyout""))",Firefox 68.0,,2019-08-13 09:57:07,2019-08-13 09:57:38,31.527s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH - SPANISH/Adding products - home page,Firefox 68.0,,2019-08-13 09:57:38,2019-08-13 09:59:23,1m - 44.699s,FAILED
+"callTestCase(findTestCase(""CALL - LANGUAGE TOGGLER""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 09:57:39,2019-08-13 09:57:53,14.532s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:57:53,2019-08-13 09:57:55,2.009s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Home page/Add prod - home page/Hero banner - 1 st""))",Firefox 68.0,,2019-08-13 09:57:55,2019-08-13 09:58:01,5.567s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:58:01,2019-08-13 09:58:03,2.011s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Add prod - home page/1 st product""))",Firefox 68.0,,2019-08-13 09:58:03,2019-08-13 09:58:06,3.667s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:58:06,2019-08-13 09:58:08,2.011s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Home page/Add prod - home page/Black variant""))",Firefox 68.0,,2019-08-13 09:58:08,2019-08-13 09:58:09,0.336s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:58:09,2019-08-13 09:58:11,2.006s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Add prod - home page/Size - SP""))",Firefox 68.0,,2019-08-13 09:58:11,2019-08-13 09:58:11,0.452s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:58:11,2019-08-13 09:58:13,2.008s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/product page/Add to bag""))",Firefox 68.0,,2019-08-13 09:58:13,2019-08-13 09:58:13,0.256s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:58:13,2019-08-13 09:58:15,2.008s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/cart collpase""))",Firefox 68.0,,2019-08-13 09:58:15,2019-08-13 09:58:16,0.277s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:58:16,2019-08-13 09:58:18,2.002s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Add prod - home page/Charlotte russe icon""))",Firefox 68.0,,2019-08-13 09:58:18,2019-08-13 09:58:19,1.547s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Home page/Add prod - home page/Hero banner - 2nd""))",Firefox 68.0,,2019-08-13 09:58:19,2019-08-13 09:58:23,3.385s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:58:23,2019-08-13 09:58:25,2.006s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Add prod - home page/2 nd product""))",Firefox 68.0,,2019-08-13 09:58:25,2019-08-13 09:58:28,3.450s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:58:28,2019-08-13 09:58:30,2.007s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Add prod - home page/Size - SP""))",Firefox 68.0,,2019-08-13 09:58:30,2019-08-13 09:58:30,0.285s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:58:30,2019-08-13 09:58:32,2.001s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/product page/Add to bag""))",Firefox 68.0,,2019-08-13 09:58:32,2019-08-13 09:58:33,0.240s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:58:33,2019-08-13 09:58:35,2.006s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/cart collpase""))",Firefox 68.0,,2019-08-13 09:58:35,2019-08-13 09:58:35,0.266s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:58:35,2019-08-13 09:58:37,2.006s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Add prod - home page/Charlotte russe icon""))",Firefox 68.0,,2019-08-13 09:58:37,2019-08-13 09:58:39,2.057s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:58:39,2019-08-13 09:58:41,2.008s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Home page/Add prod - home page/middle tile - home page""))",Firefox 68.0,,2019-08-13 09:58:41,2019-08-13 09:58:45,4.291s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:58:45,2019-08-13 09:58:47,2.017s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Add prod - home page/3 rd product""))",Firefox 68.0,,2019-08-13 09:58:47,2019-08-13 09:58:50,2.829s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:58:50,2019-08-13 09:58:52,2.005s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/Home page/Add prod - home page/Neon orange varaint""))",Firefox 68.0,,2019-08-13 09:58:52,2019-08-13 09:58:53,0.366s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:58:53,2019-08-13 09:58:55,2.009s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Add prod - home page/Size - SP""))",Firefox 68.0,,2019-08-13 09:58:55,2019-08-13 09:58:55,0.360s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:58:55,2019-08-13 09:58:57,2.008s,PASSED
+"click(findTestObject(""CR-DESKTOP - SPANISH/product page/Add to bag""))",Firefox 68.0,,2019-08-13 09:58:57,2019-08-13 09:58:57,0.239s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:58:57,2019-08-13 09:58:59,2.012s,PASSED
+"click(findTestObject(""CR-DESKTOP/Cart flyout/Checkout""))",Firefox 68.0,,2019-08-13 09:58:59,2019-08-13 09:59:05,5.439s,PASSED
+"callTestCase(findTestCase(""CALL - CUTOMER INFO PAGE""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 09:59:05,2019-08-13 09:59:14,9.435s,PASSED
+"callTestCase(findTestCase(""CALL- SHIPPING TO PAYMENT""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 09:59:14,2019-08-13 09:59:23,9.153s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH - SPANISH/Price comparison - cart flyout,Firefox 68.0,,2019-08-13 09:59:23,2019-08-13 10:00:13,50.226s,FAILED
+"callTestCase(findTestCase(""CALL - LANGUAGE TOGGLER""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 09:59:23,2019-08-13 09:59:40,16.863s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 09:59:40,2019-08-13 09:59:42,2.009s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/SHOES""))",Firefox 68.0,,2019-08-13 09:59:42,2019-08-13 10:00:13,31.211s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH - SPANISH/Different products,Firefox 68.0,,2019-08-13 10:00:13,2019-08-13 10:01:00,46.292s,FAILED
+"callTestCase(findTestCase(""CALL - LANGUAGE TOGGLER""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 10:00:14,2019-08-13 10:00:27,12.983s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:00:27,2019-08-13 10:00:29,2.006s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP - SPANISH/Mega menu/SHOES""))",Firefox 68.0,,2019-08-13 10:00:29,2019-08-13 10:01:00,31.187s,FAILED
+,,,,,,
+Test Cases/COLLECTION PAGE/Bread crumbs,Firefox 68.0,,2019-08-13 10:01:00,2019-08-13 10:01:16,16.258s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 10:01:00,2019-08-13 10:01:09,8.897s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:01:09,2019-08-13 10:01:11,2.003s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Mega menu/SHOES""))",Firefox 68.0,,2019-08-13 10:01:11,2019-08-13 10:01:11,0.139s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:01:11,2019-08-13 10:01:13,2.008s,PASSED
+"click(findTestObject(""CR-DESKTOP/Mega menu/shoes - sneakers""))",Firefox 68.0,,2019-08-13 10:01:13,2019-08-13 10:01:14,0.812s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:01:14,2019-08-13 10:01:16,2.004s,PASSED
+a = getWindowTitle(),Firefox 68.0,,2019-08-13 10:01:16,2019-08-13 10:01:16,0.014s,PASSED
+"comment("" a= "" + a)",Firefox 68.0,,2019-08-13 10:01:16,2019-08-13 10:01:16,0.000s,PASSED
+"k = ""Charlotte Russe | Shoes - Shop Sneakers""",Firefox 68.0,,2019-08-13 10:01:16,2019-08-13 10:01:16,0.000s,PASSED
+"comment("" k= "" + k)",Firefox 68.0,,2019-08-13 10:01:16,2019-08-13 10:01:16,0.000s,PASSED
+if (a == k),Firefox 68.0,,2019-08-13 10:01:16,2019-08-13 10:01:16,0.001s,PASSED
+"click(findTestObject(""CR-DESKTOP/Collection page/shoes link""))",Firefox 68.0,,2019-08-13 10:01:16,2019-08-13 10:01:16,0.255s,FAILED
+,,,,,,
+Test Cases/COLLECTION PAGE/Quick add hovering,Firefox 68.0,,2019-08-13 10:01:16,2019-08-13 10:02:05,48.934s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 10:01:16,2019-08-13 10:01:28,11.771s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:01:28,2019-08-13 10:01:30,2.015s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Mega menu/SHOES""))",Firefox 68.0,,2019-08-13 10:01:30,2019-08-13 10:01:30,0.131s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:01:30,2019-08-13 10:01:32,2.002s,PASSED
+"click(findTestObject(""CR-DESKTOP/Mega menu/shoes - sneakers""))",Firefox 68.0,,2019-08-13 10:01:32,2019-08-13 10:01:32,0.166s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:01:32,2019-08-13 10:01:34,2.006s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Collection page/product 1 - sneakers""))",Firefox 68.0,,2019-08-13 10:01:34,2019-08-13 10:02:05,30.731s,FAILED
+,,,,,,
+Test Cases/HOME PAGE/Store locator,Firefox 68.0,,2019-08-13 10:02:05,2019-08-13 10:02:41,36.419s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 10:02:05,2019-08-13 10:02:41,36.321s,FAILED
+,,,,,,
+Test Cases/HOME PAGE/New arrivals,Firefox 68.0,,2019-08-13 10:02:41,2019-08-13 10:03:15,33.633s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 10:02:41,2019-08-13 10:03:15,33.531s,FAILED
+,,,,,,
+Test Cases/HOME PAGE/Mega menu navigation,Firefox 68.0,,2019-08-13 10:03:15,2019-08-13 10:03:52,37.205s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 10:03:15,2019-08-13 10:03:52,37.085s,FAILED
+,,,,,,
+Test Cases/HOME PAGE/Recommended for you,Firefox 68.0,,2019-08-13 10:03:52,2019-08-13 10:04:07,14.914s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 10:03:52,2019-08-13 10:04:00,7.482s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:04:00,2019-08-13 10:04:02,2.010s,PASSED
+"scrollToElement(findTestObject(""CR-DESKTOP/Home page/Recomended for you/Recomended for you section""), 0)",Firefox 68.0,,2019-08-13 10:04:02,2019-08-13 10:04:02,0.031s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:04:02,2019-08-13 10:04:04,2.006s,PASSED
+"for ([i = 1, i <= 3, (i++)])",Firefox 68.0,,2019-08-13 10:04:04,2019-08-13 10:04:07,3.310s,FAILED
+,,,,,,
+Test Cases/HOME PAGE/Home page - CTA,Firefox 68.0,,2019-08-13 10:04:07,2019-08-13 10:04:36,29.040s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 10:04:07,2019-08-13 10:04:28,21.094s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:04:28,2019-08-13 10:04:30,2.029s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Add prod - home page/Hero banner - 1 st""))",Firefox 68.0,,2019-08-13 10:04:30,2019-08-13 10:04:32,1.358s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:04:32,2019-08-13 10:04:34,2.019s,PASSED
+getWindowTitle(),Firefox 68.0,,2019-08-13 10:04:34,2019-08-13 10:04:34,0.007s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:04:34,2019-08-13 10:04:36,2.009s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Add prod - home page/Charlotte russe icon""))",Firefox 68.0,,2019-08-13 10:04:36,2019-08-13 10:04:36,0.345s,FAILED
+,,,,,,
+Test Cases/HOME PAGE/Language toggler,Firefox 68.0,,2019-08-13 10:04:36,2019-08-13 10:09:01,4m - 24.901s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 10:04:36,2019-08-13 10:08:54,4m - 18.149s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:08:54,2019-08-13 10:08:56,2.004s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Spanish""))",Firefox 68.0,,2019-08-13 10:08:56,2019-08-13 10:08:58,1.265s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:08:58,2019-08-13 10:09:00,2.001s,PASSED
+takeScreenshot(),Firefox 68.0,,2019-08-13 10:09:00,2019-08-13 10:09:00,0.639s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-08-13 10:09:00,2019-08-13 10:09:00,0.001s,NOT_RUN
+"click(findTestObject(""CR-DESKTOP/Home page/English""))",Firefox 68.0,,2019-08-13 10:09:00,2019-08-13 10:09:01,0.654s,FAILED
+,,,,,,
+Test Cases/HOME PAGE/Footer,Firefox 68.0,,2019-08-13 10:09:01,2019-08-13 10:09:16,15.032s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 10:09:01,2019-08-13 10:09:11,9.444s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:09:11,2019-08-13 10:09:13,2.001s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Footer/a_Contact Us""))",Firefox 68.0,,2019-08-13 10:09:13,2019-08-13 10:09:14,1.222s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:09:14,2019-08-13 10:09:16,2.001s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Footer/a_Track Order""))",Firefox 68.0,,2019-08-13 10:09:16,2019-08-13 10:09:16,0.181s,FAILED
+,,,,,,
+Test Cases/HOME PAGE/Cart flyout opening,Firefox 68.0,,2019-08-13 10:09:16,2019-08-13 10:09:16,0.066s,ERROR
+"callTestCase(findTestCase(""CALL - URL""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 10:09:16,2019-08-13 10:09:16,0.002s,ERROR
+,,,,,,
+Test Cases/PRODUCT PAGE/Product - breadcrumb,Firefox 68.0,,2019-08-13 10:09:16,2019-08-13 10:09:32,16.338s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 10:09:16,2019-08-13 10:09:25,9.118s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:09:25,2019-08-13 10:09:27,2.002s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Mega menu/SHOES""))",Firefox 68.0,,2019-08-13 10:09:27,2019-08-13 10:09:27,0.143s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:09:27,2019-08-13 10:09:29,2.004s,PASSED
+"click(findTestObject(""CR-DESKTOP/Mega menu/shoes - sneakers""))",Firefox 68.0,,2019-08-13 10:09:29,2019-08-13 10:09:30,0.754s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:09:30,2019-08-13 10:09:32,2.005s,PASSED
+"click(findTestObject(""CR-DESKTOP/Collection page/product 3""))",Firefox 68.0,,2019-08-13 10:09:32,2019-08-13 10:09:32,0.233s,FAILED
+,,,,,,
+Test Cases/PRODUCT PAGE/You may also like - Other customers viewed,Firefox 68.0,,2019-08-13 10:09:32,2019-08-13 10:09:50,17.239s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 10:09:33,2019-08-13 10:09:42,9.800s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:09:42,2019-08-13 10:09:44,2.002s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Mega menu/SHOES""))",Firefox 68.0,,2019-08-13 10:09:44,2019-08-13 10:09:44,0.142s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:09:44,2019-08-13 10:09:46,2.006s,PASSED
+"click(findTestObject(""CR-DESKTOP/Mega menu/shoes - sneakers""))",Firefox 68.0,,2019-08-13 10:09:46,2019-08-13 10:09:47,0.994s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:09:47,2019-08-13 10:09:49,2.003s,PASSED
+"click(findTestObject(""CR-DESKTOP/Collection page/product 3""))",Firefox 68.0,,2019-08-13 10:09:49,2019-08-13 10:09:50,0.231s,FAILED
+,,,,,,
+Test Cases/PRODUCT PAGE/Add to wishlist,Firefox 68.0,,2019-08-13 10:09:50,2019-08-13 10:10:10,20.099s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 10:09:50,2019-08-13 10:10:00,10.077s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:10:00,2019-08-13 10:10:02,2.009s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Login/Account icon""))",Firefox 68.0,,2019-08-13 10:10:02,2019-08-13 10:10:04,1.656s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:10:04,2019-08-13 10:10:06,2.003s,PASSED
+"setText(findTestObject(""CR-DESKTOP/Home page/Login/Email""), ""suman.kompelly+1@diffagency.com"")",Firefox 68.0,,2019-08-13 10:10:06,2019-08-13 10:10:06,0.059s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:10:06,2019-08-13 10:10:08,2.005s,PASSED
+"setEncryptedText(findTestObject(""CR-DESKTOP/Home page/Login/Password""), ""5xx1bkCcAlw="")",Firefox 68.0,,2019-08-13 10:10:08,2019-08-13 10:10:08,0.045s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:10:08,2019-08-13 10:10:10,2.003s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Login/Login button""))",Firefox 68.0,,2019-08-13 10:10:10,2019-08-13 10:10:10,0.171s,FAILED
+,,,,,,
+Test Cases/PRODUCT PAGE/product image sliders - hovering,Firefox 68.0,,2019-08-13 10:10:10,2019-08-13 10:10:27,16.707s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 10:10:10,2019-08-13 10:10:19,9.256s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:10:19,2019-08-13 10:10:21,2.008s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Mega menu/SHOES""))",Firefox 68.0,,2019-08-13 10:10:21,2019-08-13 10:10:21,0.131s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:10:21,2019-08-13 10:10:23,2.002s,PASSED
+"click(findTestObject(""CR-DESKTOP/Mega menu/shoes - sneakers""))",Firefox 68.0,,2019-08-13 10:10:23,2019-08-13 10:10:24,0.973s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:10:24,2019-08-13 10:10:26,2.002s,PASSED
+"click(findTestObject(""CR-DESKTOP/Collection page/product 3""))",Firefox 68.0,,2019-08-13 10:10:26,2019-08-13 10:10:27,0.249s,FAILED
+,,,,,,
+Test Cases/PRODUCT PAGE/Recently viewed,Firefox 68.0,,2019-08-13 10:10:27,2019-08-13 10:10:47,20.803s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 10:10:27,2019-08-13 10:10:40,13.401s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:10:40,2019-08-13 10:10:42,2.007s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Mega menu/SHOES""))",Firefox 68.0,,2019-08-13 10:10:42,2019-08-13 10:10:42,0.136s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:10:42,2019-08-13 10:10:44,2.006s,PASSED
+"click(findTestObject(""CR-DESKTOP/Mega menu/shoes - sneakers""))",Firefox 68.0,,2019-08-13 10:10:44,2019-08-13 10:10:45,0.873s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:10:45,2019-08-13 10:10:47,2.002s,PASSED
+"click(findTestObject(""CR-DESKTOP/Collection page/product 3""))",Firefox 68.0,,2019-08-13 10:10:47,2019-08-13 10:10:47,0.277s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH/Increase quantity - cart page,Firefox 68.0,,2019-08-13 10:10:47,2019-08-13 10:11:07,19.205s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 10:10:47,2019-08-13 10:10:58,10.530s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:10:58,2019-08-13 10:11:00,2.010s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Mega menu/SHOES""))",Firefox 68.0,,2019-08-13 10:11:00,2019-08-13 10:11:00,0.172s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:11:00,2019-08-13 10:11:02,2.002s,PASSED
+"click(findTestObject(""CR-DESKTOP/Mega menu/shoes - sneakers""))",Firefox 68.0,,2019-08-13 10:11:02,2019-08-13 10:11:04,2.163s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:11:04,2019-08-13 10:11:06,2.001s,PASSED
+"click(findTestObject(""CR-DESKTOP/Collection page/product 3""))",Firefox 68.0,,2019-08-13 10:11:06,2019-08-13 10:11:07,0.252s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH/Increase quantity - cart flyout,Firefox 68.0,,2019-08-13 10:11:07,2019-08-13 10:11:26,19.536s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 10:11:07,2019-08-13 10:11:18,11.759s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:11:18,2019-08-13 10:11:20,2.006s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Mega menu/SHOES""))",Firefox 68.0,,2019-08-13 10:11:20,2019-08-13 10:11:21,0.148s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:11:21,2019-08-13 10:11:23,2.006s,PASSED
+"click(findTestObject(""CR-DESKTOP/Mega menu/shoes - sneakers""))",Firefox 68.0,,2019-08-13 10:11:23,2019-08-13 10:11:24,1.293s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:11:24,2019-08-13 10:11:26,2.002s,PASSED
+"click(findTestObject(""CR-DESKTOP/Collection page/product 3""))",Firefox 68.0,,2019-08-13 10:11:26,2019-08-13 10:11:26,0.237s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH/Quick add,Firefox 68.0,,2019-08-13 10:11:26,2019-08-13 10:11:51,24.486s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 10:11:26,2019-08-13 10:11:39,13.261s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:11:39,2019-08-13 10:11:41,2.002s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Mega menu/SHOES""))",Firefox 68.0,,2019-08-13 10:11:41,2019-08-13 10:11:42,0.156s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:11:42,2019-08-13 10:11:44,2.002s,PASSED
+"click(findTestObject(""CR-DESKTOP/Mega menu/shoes - sneakers""))",Firefox 68.0,,2019-08-13 10:11:44,2019-08-13 10:11:46,2.599s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:11:46,2019-08-13 10:11:48,2.013s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Collection page/product 3""))",Firefox 68.0,,2019-08-13 10:11:48,2019-08-13 10:11:48,0.137s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:11:48,2019-08-13 10:11:50,2.002s,PASSED
+"click(findTestObject(""CR-DESKTOP/product page/Quick add""))",Firefox 68.0,,2019-08-13 10:11:50,2019-08-13 10:11:51,0.245s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH/Price comparison - cart page,Firefox 68.0,,2019-08-13 10:11:51,2019-08-13 10:12:11,20.662s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 10:11:51,2019-08-13 10:12:04,13.379s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:12:04,2019-08-13 10:12:06,2.001s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Mega menu/SHOES""))",Firefox 68.0,,2019-08-13 10:12:06,2019-08-13 10:12:06,0.129s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:12:06,2019-08-13 10:12:08,2.005s,PASSED
+"click(findTestObject(""CR-DESKTOP/Mega menu/shoes - sneakers""))",Firefox 68.0,,2019-08-13 10:12:08,2019-08-13 10:12:09,0.809s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:12:09,2019-08-13 10:12:11,2.002s,PASSED
+"click(findTestObject(""CR-DESKTOP/Collection page/product 3""))",Firefox 68.0,,2019-08-13 10:12:11,2019-08-13 10:12:11,0.230s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH/Decrease quantity - cart page,Firefox 68.0,,2019-08-13 10:12:11,2019-08-13 10:12:29,17.881s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 10:12:11,2019-08-13 10:12:22,10.442s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:12:22,2019-08-13 10:12:24,2.002s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Mega menu/SHOES""))",Firefox 68.0,,2019-08-13 10:12:24,2019-08-13 10:12:24,0.150s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:12:24,2019-08-13 10:12:26,2.005s,PASSED
+"click(findTestObject(""CR-DESKTOP/Mega menu/shoes - sneakers""))",Firefox 68.0,,2019-08-13 10:12:26,2019-08-13 10:12:27,0.963s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:12:27,2019-08-13 10:12:29,2.004s,PASSED
+"click(findTestObject(""CR-DESKTOP/Collection page/product 3""))",Firefox 68.0,,2019-08-13 10:12:29,2019-08-13 10:12:29,0.238s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH/Login and Logout,Firefox 68.0,,2019-08-13 10:12:29,2019-08-13 10:12:50,21.288s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 10:12:29,2019-08-13 10:12:40,11.214s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:12:40,2019-08-13 10:12:42,2.004s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Login/Account icon""))",Firefox 68.0,,2019-08-13 10:12:42,2019-08-13 10:12:44,1.726s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:12:44,2019-08-13 10:12:46,2.005s,PASSED
+"setText(findTestObject(""CR-DESKTOP/Home page/Login/Email""), ""suman.kompelly+1@diffagency.com"")",Firefox 68.0,,2019-08-13 10:12:46,2019-08-13 10:12:46,0.054s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:12:46,2019-08-13 10:12:48,2.002s,PASSED
+"setEncryptedText(findTestObject(""CR-DESKTOP/Home page/Login/Password""), ""5xx1bkCcAlw="")",Firefox 68.0,,2019-08-13 10:12:48,2019-08-13 10:12:48,0.059s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:12:48,2019-08-13 10:12:50,2.002s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Login/Login button""))",Firefox 68.0,,2019-08-13 10:12:50,2019-08-13 10:12:50,0.163s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH/Decrease quantity - cart flyout,Firefox 68.0,,2019-08-13 10:12:50,2019-08-13 10:13:11,20.858s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 10:12:51,2019-08-13 10:13:02,11.683s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:13:02,2019-08-13 10:13:04,2.002s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Mega menu/SHOES""))",Firefox 68.0,,2019-08-13 10:13:04,2019-08-13 10:13:04,0.133s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:13:04,2019-08-13 10:13:06,2.006s,PASSED
+"click(findTestObject(""CR-DESKTOP/Mega menu/shoes - sneakers""))",Firefox 68.0,,2019-08-13 10:13:06,2019-08-13 10:13:09,2.734s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:13:09,2019-08-13 10:13:11,2.007s,PASSED
+"click(findTestObject(""CR-DESKTOP/Collection page/product 3""))",Firefox 68.0,,2019-08-13 10:13:11,2019-08-13 10:13:11,0.229s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH/Adding products - Search flyout,Firefox 68.0,,2019-08-13 10:13:11,2019-08-13 10:13:27,15.983s,ERROR
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 10:13:11,2019-08-13 10:13:21,9.612s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:13:21,2019-08-13 10:13:23,2.010s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Search flyout""))",Firefox 68.0,,2019-08-13 10:13:23,2019-08-13 10:13:23,0.233s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:13:23,2019-08-13 10:13:25,2.003s,PASSED
+"setText(findTestObject(""CR-DESKTOP/Home page/Search flyout""), ""heels"")",Firefox 68.0,,2019-08-13 10:13:25,2019-08-13 10:13:25,0.044s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:13:25,2019-08-13 10:13:27,2.002s,PASSED
+"sendKeys(findTestObject(""CR-DESKTOP/Home page/Search button""), Keys.chord(ENTER))",Firefox 68.0,,2019-08-13 10:13:27,2019-08-13 10:13:27,0.006s,ERROR
+,,,,,,
+Test Cases/CRITICAL PATH/Adding products - home page,Firefox 68.0,,2019-08-13 10:13:27,2019-08-13 10:13:44,16.672s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 10:13:27,2019-08-13 10:13:37,9.480s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:13:37,2019-08-13 10:13:39,2.003s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Add prod - home page/Hero banner - 1 st""))",Firefox 68.0,,2019-08-13 10:13:39,2019-08-13 10:13:42,2.844s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:13:42,2019-08-13 10:13:44,2.001s,PASSED
+"click(findTestObject(""CR-DESKTOP/Home page/Add prod - home page/1 st product""))",Firefox 68.0,,2019-08-13 10:13:44,2019-08-13 10:13:44,0.279s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH/Price comparison - cart flyout,Firefox 68.0,,2019-08-13 10:13:44,2019-08-13 10:14:02,17.837s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 10:13:44,2019-08-13 10:13:54,10.243s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:13:54,2019-08-13 10:13:56,2.001s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Mega menu/SHOES""))",Firefox 68.0,,2019-08-13 10:13:56,2019-08-13 10:13:56,0.151s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:13:56,2019-08-13 10:13:58,2.005s,PASSED
+"click(findTestObject(""CR-DESKTOP/Mega menu/shoes - sneakers""))",Firefox 68.0,,2019-08-13 10:13:58,2019-08-13 10:14:00,1.102s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:14:00,2019-08-13 10:14:02,2.002s,PASSED
+"click(findTestObject(""CR-DESKTOP/Collection page/product 3""))",Firefox 68.0,,2019-08-13 10:14:02,2019-08-13 10:14:02,0.237s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH/Different products,Firefox 68.0,,2019-08-13 10:14:02,2019-08-13 10:14:23,21.546s,FAILED
+"callTestCase(findTestCase(""CALL-URL""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-08-13 10:14:02,2019-08-13 10:14:16,14.154s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:14:16,2019-08-13 10:14:18,2.022s,PASSED
+"mouseOver(findTestObject(""CR-DESKTOP/Mega menu/SHOES""))",Firefox 68.0,,2019-08-13 10:14:18,2019-08-13 10:14:18,0.154s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:14:18,2019-08-13 10:14:20,2.004s,PASSED
+"click(findTestObject(""CR-DESKTOP/Mega menu/shoes - sneakers""))",Firefox 68.0,,2019-08-13 10:14:20,2019-08-13 10:14:21,0.878s,PASSED
+delay(2),Firefox 68.0,,2019-08-13 10:14:21,2019-08-13 10:14:23,2.002s,PASSED
+"click(findTestObject(""CR-DESKTOP/Collection page/product 3""))",Firefox 68.0,,2019-08-13 10:14:23,2019-08-13 10:14:23,0.239s,FAILED

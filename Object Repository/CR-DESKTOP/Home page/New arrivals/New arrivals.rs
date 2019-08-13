@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//h2[contains(text(),'New Arrivals')]</value>
+         <value>//div[@id='cr-frontpage-nosto-2']//ul[@class='slick-dots']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -21,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h2</value>
+      <value>ul</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//h2[contains(text(),'New Arrivals')]</value>
+      <value>//div[@id='cr-frontpage-nosto-2']//ul[@class='slick-dots']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
